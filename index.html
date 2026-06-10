@@ -1,0 +1,2034 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="WK 2026">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAEuklEQVR42u3dSY4cNxAFUO618NIwdJk+uo6kG9gQYBiwoKGzi0PwxyPw19UZfBWIZlZljVF8ffrjz7+lVoYFLPAAC+AQC9wgC9ggSzxsGyQxsG2KRKC2ERIDW/ElBrWiSwxqxZYY1IosMagVV2JQK+r/8/XL2/Ko8yLU8L6VCdQwXw0Y8MmoIYY7BjTEcMegBhnsKNQQwx0DGmSwo1CDDHYMaJjX5PPnv6A+gRrkZ0hXBewJoEE+g7cS8ijUMNdDfAI30EGQKyPejftq0J0x34h4F+5rUXfEnAR5JWygQQYb6PWYO0FeBfsK0Cdx3nqTpDPs8qirgq56y1jHfgP6KejKt5qNIXVRlwQ9CxvQ62ED/ZuCzIQGdD/UpUDPRuaUox/qMqBXdM33gtah58AG+t8irBoDgO6HeiR/qAjofqivBP1erED3Q30d6CdYge6H+irQT7ECfRY10C+cMe/84LtjvbqorwD90e4Lcz/U40bMQEN9JegnRQW6Nuo40CfOmM3Q/VCPm47qnHIYPYAGulWXHhXnZqChjgA9GyvQNVFfC/r0bW2g+3XpUfGIDmiorwa9CiuI/UaPUfEGCtC69LWgV2IFul+XHrd8I2XGG8OdwvwuDTTQUV0aaKCBrvgsOqChBhpooFedbAjUQAvQp0HbZKjLg9adpUqXBlqANm5I1bFj6M6S1KWBFqCNG1J17DgGeuWqtIk7rzPltY6BfmXcABron61XuvQ4NW4ADTTQQAMNNNBAHwDtFOD5m2NlTVftz498lAD96vkz0ED/CvRHUY9T589A9wT9I9RAAw000EADDTTQQAMNNNDOoRecDe9888w+hwYaaKCBBhpooIEGGmigm4Gu+h/56pOJqq+18s2z8psrS0FXKT7Q9Y4IrwStQwMd1aGBBhpooIEGGmiggQYaaKCBBtqNFV+SdacQaKCBBhpooIEGGmigu4L2KF3Z+Zzo4dnQkvSMaKAFaKAFaJEU0FDLrh8O8qNB4keDgJb2oKGGGWgB2m99S9dxYztoqGEGWoDeDdrYIRXGjSOgoYYZaAF6N2io5TRmoAVoqKUqZqAF6JmgoYa5PGhdWk5hLgEaat25PGhdGugTmMuAhlp3Lg8aaph3Y14O2ugB9E7M5UBDrTuXBw01zLswlwUNdSbmGNC6NNA7MG8FDTXM7UFDbdQoDRpqmONAQw1zHGioYQYa6qswtwMNNcxxoKGGeTrobwtqScBcBjTUMMeBfgU12GchV8FcDjTUMMeBhhrmONCvogZ7PeSKmEuDhhrmONAzUIM9F3JlzP+B7oC6O+xZNbwCc3XQM1F3gz2zbtWNXAUabJAjQc9GnQZ7dm1ucjG+X51R34x7VS2uxnwb6NWwq+Need03OogBvRp1Jdw7rvNWA+Nn69YL2gV7F/Ld13Lzvo9frZsv7BTs9+Kv+Hcl7Pf43YK6R1pgTgENdjbkR6DTUIOdB/kR5kTQXXEn7+N4upKLkQ47fe/GR1d6YZJwd9mr8crqUqRbcXfcn/Hq6li0qsC778WYtboX8gRydV6EGWqJwwy1xGGGWuIwQy1xmKGWOMxQSxxmsCUOMtQSiRlsiYMMtkRCBlsiIcMtkYgBB3jX+gdzN3YMx4ZGrgAAAABJRU5ErkJggg==">
+<title>WK 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0f17;--s1:#131928;--s2:#1c2438;--border:#243048;--gold:#f0c040;--blue:#3b82f6;--red:#ef4444;--green:#22c55e;--muted:#5a7090;--text:#e8f0ff;--r:12px}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overflow:hidden;background:var(--bg)}
+body{font-family:'Inter',sans-serif;color:var(--text);display:flex;flex-direction:column;height:100dvh}
+header{background:var(--s1);border-bottom:1px solid var(--border);padding:10px 14px 0;flex-shrink:0}
+.logo{font-family:'Oswald',sans-serif;font-weight:700;font-size:20px;color:var(--gold);letter-spacing:1px;margin-bottom:8px}
+.logo span{color:var(--text)}
+nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+.tab{font-family:'Oswald',sans-serif;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.5px;padding:7px 13px;border-radius:8px 8px 0 0;border:none;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;flex-shrink:0;border-bottom:2px solid transparent;transition:all .15s}
+.tab.active{color:var(--gold);border-bottom-color:var(--gold);background:rgba(240,192,64,.06)}
+main{flex:1;overflow:hidden}
+.view{display:none;height:100%;overflow-y:auto;padding:12px;scrollbar-width:thin;scrollbar-color:var(--border) transparent}
+.view.active{display:block}
+.view::-webkit-scrollbar{width:3px}
+.view::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.card{background:var(--s1);border:1px solid var(--border);border-radius:var(--r);padding:12px;margin-bottom:8px}
+.sl{font-family:'Oswald',sans-serif;font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--gold);margin:12px 0 6px;padding-bottom:4px;border-bottom:1px solid var(--border)}
+.sw{position:sticky;top:0;z-index:10;background:var(--bg);padding-bottom:8px}
+.sb{width:100%;background:var(--s1);border:1px solid var(--border);border-radius:10px;padding:10px 14px;color:var(--text);font-family:'Inter',sans-serif;font-size:14px;outline:none;transition:border-color .2s}
+.sb:focus{border-color:var(--gold)}
+.sb::placeholder{color:var(--muted)}
+.tg{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:10px}
+.tb{background:var(--s1);border:1px solid var(--border);border-radius:10px;padding:10px 6px;cursor:pointer;text-align:center;transition:all .15s;color:var(--text)}
+.tb:hover{border-color:var(--gold);background:rgba(240,192,64,.07)}
+.tb .fl{font-size:22px;display:block;margin-bottom:3px}
+.tb .nm{font-family:'Oswald',sans-serif;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.3px;line-height:1.2}
+.sh{display:flex;align-items:center;gap:10px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.sf2{font-size:32px}
+.sn{font-family:'Oswald',sans-serif;font-weight:700;font-size:22px;text-transform:uppercase}
+.bb{margin-left:auto;background:var(--s2);border:1px solid var(--border);border-radius:8px;padding:5px 11px;color:var(--muted);cursor:pointer;font-size:12px;font-family:'Inter',sans-serif;flex-shrink:0}
+.pl{font-family:'Oswald',sans-serif;font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--gold);margin:10px 0 5px}
+.pr{display:flex;align-items:center;gap:10px;padding:8px 10px;background:var(--s1);border:1px solid var(--border);border-radius:8px;margin-bottom:4px;cursor:pointer;transition:border-color .15s}
+.pr:hover{border-color:var(--blue)}
+.pav{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;border:1px solid var(--border)}
+.pav.gk{background:rgba(240,192,64,.15);border-color:rgba(240,192,64,.4)}
+.pav.def{background:rgba(59,130,246,.12);border-color:rgba(59,130,246,.35)}
+.pav.mid{background:rgba(34,197,94,.1);border-color:rgba(34,197,94,.3)}
+.pav.fwd{background:rgba(239,68,68,.12);border-color:rgba(239,68,68,.35)}
+.pi{flex:1;min-width:0}
+.pname{font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.psub{font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pbadge{font-size:10px;font-weight:600;padding:1px 5px;border-radius:5px;margin-right:3px}
+.bg{background:rgba(240,192,64,.15);color:var(--gold)}
+.bb2{background:rgba(59,130,246,.12);color:var(--blue)}
+.br2{background:rgba(239,68,68,.12);color:var(--red)}
+/* player detail */
+.pdetail{background:linear-gradient(135deg,var(--s1),var(--s2));border:1px solid var(--border);border-radius:var(--r);padding:16px;margin-bottom:10px}
+.pdflag{font-size:40px;margin-bottom:4px}
+.pdav{width:70px;height:70px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:36px;margin:0 auto 10px;border:2px solid var(--border)}
+.pdav.gk{background:rgba(240,192,64,.15);border-color:rgba(240,192,64,.5)}
+.pdav.def{background:rgba(59,130,246,.12);border-color:rgba(59,130,246,.4)}
+.pdav.mid{background:rgba(34,197,94,.1);border-color:rgba(34,197,94,.4)}
+.pdav.fwd{background:rgba(239,68,68,.12);border-color:rgba(239,68,68,.4)}
+.pdname{font-family:'Oswald',sans-serif;font-weight:700;font-size:22px;text-transform:uppercase;line-height:1.1;text-align:center}
+.pdpos{font-size:12px;color:var(--muted);text-align:center;margin-top:3px}
+.pdstats{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-top:12px}
+.pdstat{background:var(--bg);border-radius:8px;padding:7px 4px;text-align:center}
+.pdsl{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;line-height:1.2}
+.pdsv{font-family:'Oswald',sans-serif;font-weight:700;font-size:15px;margin-top:2px;color:var(--gold)}
+.ir{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid rgba(36,48,72,.6);font-size:13px;gap:8px}
+.ir:last-child{border-bottom:none}
+.il{color:var(--muted);flex-shrink:0}
+.iv{text-align:right;font-size:12px}
+/* match / standings / bracket same as before */
+.mc{background:var(--s1);border:1px solid var(--border);border-radius:var(--r);padding:10px 12px;margin-bottom:6px}
+.mm{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.ms{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;padding:2px 7px;border-radius:8px}
+.mf{background:rgba(90,112,144,.2);color:var(--muted)}
+.mpl{background:rgba(59,130,246,.15);color:var(--blue)}
+.md2{font-size:10px;color:var(--muted)}
+.mlb{font-size:10px;color:var(--gold);font-weight:700}
+.mtt{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center}
+.mti{display:flex;flex-direction:column;align-items:center;gap:3px}
+.mfl{font-size:20px}
+.mtn{font-family:'Oswald',sans-serif;font-weight:600;font-size:12px;text-align:center;line-height:1.2}
+.msc{background:var(--s2);border:1px solid var(--border);border-radius:8px;padding:5px 10px;text-align:center;min-width:52px}
+.msct{font-family:'Oswald',sans-serif;font-weight:700;font-size:20px;color:var(--gold)}
+.mvc{font-size:10px;color:var(--muted);text-align:center;margin-top:4px}
+.st{width:100%;border-collapse:collapse}
+.st th{font-family:'Oswald',sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);padding:5px 5px;text-align:center;border-bottom:1px solid var(--border)}
+.st th:nth-child(2){text-align:left}
+.st td{padding:8px 5px;font-size:12px;text-align:center;border-bottom:1px solid rgba(36,48,72,.4)}
+.st td:nth-child(2){text-align:left}
+.st tr:last-child td{border-bottom:none}
+.sp{font-family:'Oswald',sans-serif;font-weight:700;font-size:14px;color:var(--muted)}
+.q1{color:var(--gold)}.q2{color:var(--blue)}.q3{color:var(--green)}
+.tc{display:flex;align-items:center;gap:5px}
+.tf2{font-size:17px}
+.tn{font-family:'Oswald',sans-serif;font-weight:600;font-size:12px}
+.fb{display:flex;gap:5px;overflow-x:auto;scrollbar-width:none;margin-bottom:10px}
+.fb::-webkit-scrollbar{display:none}
+.fp{font-family:'Oswald',sans-serif;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.4px;padding:5px 12px;border-radius:16px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;flex-shrink:0;transition:all .15s}
+.fp.active{background:rgba(59,130,246,.15);border-color:var(--blue);color:var(--blue)}
+.bm{background:var(--s1);border:1px solid var(--border);border-radius:var(--r);padding:10px;margin-bottom:6px}
+.bmn{font-size:10px;color:var(--muted);margin-bottom:6px;font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.5px}
+.bts{display:flex;flex-direction:column;gap:4px}
+.bt{display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;background:var(--s2)}
+.bt.win{background:rgba(240,192,64,.1);border:1px solid rgba(240,192,64,.3)}
+.btf{font-size:16px}.btn2{font-family:'Oswald',sans-serif;font-weight:600;font-size:13px;flex:1}
+.bts2{font-family:'Oswald',sans-serif;font-weight:700;font-size:15px;color:var(--gold)}
+.br-round{margin-bottom:14px}
+.br-title{font-family:'Oswald',sans-serif;font-weight:700;font-size:14px;color:var(--gold);margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.stag{display:inline-block;font-size:10px;padding:2px 6px;border-radius:6px;margin-right:3px;font-weight:600}
+.stp{background:rgba(59,130,246,.15);color:var(--blue)}
+.stc{background:rgba(240,192,64,.1);color:var(--gold)}
+.empty{text-align:center;padding:30px;color:var(--muted);font-size:14px}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">WK <span>2026</span> 🏆</div>
+  <nav>
+    <button class="tab active" data-view="schedule">📅 Schema</button>
+    <button class="tab" data-view="results">✅ Uitslagen</button>
+    <button class="tab" data-view="groups">📊 Standen</button>
+    <button class="tab" data-view="squads">🌍 Selecties</button>
+    <button class="tab" data-view="search">🔍 Zoeken</button>
+    <button class="tab" data-view="bracket">🏆 Bracket</button>
+  </nav>
+</header>
+<main>
+<div class="view" id="view-search">
+  <div class="sw"><input class="sb" id="si" type="text" placeholder="🔍  Zoek speler of land — 1248 spelers, 48 landen..." oninput="doSearch(this.value)"></div>
+  <div id="sr"><div class="empty">Typ een naam om te zoeken</div></div>
+</div>
+<div class="view" id="view-squads"><div id="sqI"></div></div>
+<div class="view" id="view-groups"><div class="fb" id="gf"></div><div id="gI"></div></div>
+<div class="view active" id="view-schedule"><div id="scI"></div></div>
+<div class="view" id="view-results"><div id="resI"></div></div>
+<div class="view" id="view-bracket"><div id="brI"></div></div>
+</main>
+
+<script>
+const FL={"Algeria":"🇩🇿","Argentina":"🇦🇷","Australia":"🇦🇺","Austria":"🇦🇹","Belgium":"🇧🇪","Bosnia":"🇧🇦","Brazil":"🇧🇷","Canada":"🇨🇦","Cape Verde":"🇨🇻","Colombia":"🇨🇴","Croatia":"🇭🇷","Curacao":"🇨🇼","Czechia":"🇨🇿","DR Congo":"🇨🇩","Ecuador":"🇪🇨","Egypt":"🇪🇬","England":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","France":"🇫🇷","Germany":"🇩🇪","Ghana":"🇬🇭","Greece":"🇬🇷","Haiti":"🇭🇹","Iran":"🇮🇷","Iraq":"🇮🇶","Ivory Coast":"🇨🇮","Japan":"🇯🇵","Jordan":"🇯🇴","Mexico":"🇲🇽","Morocco":"🇲🇦","Netherlands":"🇳🇱","New Zealand":"🇳🇿","Norway":"🇳🇴","Panama":"🇵🇦","Paraguay":"🇵🇾","Portugal":"🇵🇹","Qatar":"🇶🇦","Saudi Arabia":"🇸🇦","Scotland":"🏴󠁧󠁢󠁳󠁣󠁴󠁿","Senegal":"🇸🇳","South Africa":"🇿🇦","South Korea":"🇰🇷","Spain":"🇪🇸","Sweden":"🇸🇪","Switzerland":"🇨🇭","Tunisia":"🇹🇳","Turkey":"🇹🇷","Uruguay":"🇺🇾","USA":"🇺🇸","Uzbekistan":"🇺🇿"};
+function F(t){return FL[t]||"🏳️"}
+
+// Position emoji avatars
+const POSAV={gk:"🧤",def:"🛡️",mid:"⚙️",fwd:"⚽"};
+const POSCLASS={gk:"gk",def:"def",mid:"mid",fwd:"fwd"};
+const POSLABEL={gk:"Keeper",def:"Verdediger",mid:"Middenvelder",fwd:"Aanvaller"};
+
+// Player database: [name, club, age, caps, goals, dob_year]
+// Format: name, club, leeftijd, caps, goals
+const SQ={
+"Netherlands":{coach:"Ronald Koeman",cap:"Virgil van Dijk",ranking:7,wc_best:"Finalist (1974,1978,2010)",
+gk:[
+  ["Bart Verbruggen","Brighton & Hove Albion",23,10,0],
+  ["Mark Flekken","Bayer Leverkusen",32,4,0],
+  ["Robin Roefs","Sunderland",22,1,0]
+],
+def:[
+  ["Virgil van Dijk","Liverpool",34,76,7],
+  ["Nathan Ake","Manchester City",30,43,5],
+  ["Denzel Dumfries","Inter Milan",29,58,8],
+  ["Jorrel Hato","Chelsea",19,11,0],
+  ["Jan Paul van Hecke","Brighton & Hove Albion",25,12,0],
+  ["Jurrien Timber","Arsenal",24,21,1],
+  ["Micky van de Ven","Tottenham Hotspur",24,17,0]
+],
+mid:[
+  ["Ryan Gravenberch","Liverpool",23,27,1],
+  ["Frenkie de Jong","Barcelona",28,64,4],
+  ["Teun Koopmeiners","Juventus",27,38,9],
+  ["Noa Lang","Galatasaray",26,18,3],
+  ["Tijjani Reijnders","Manchester City",27,36,9],
+  ["Marten de Roon","Atalanta",34,46,1],
+  ["Guus Til","PSV Eindhoven",28,22,3],
+  ["Quinten Timber","Marseille",24,15,1],
+  ["Mats Wieffer","Brighton & Hove Albion",26,11,0]
+],
+fwd:[
+  ["Memphis Depay","Corinthians",31,108,55],
+  ["Cody Gakpo","Liverpool",26,41,16],
+  ["Brian Brobbey","Sunderland",23,17,4],
+  ["Justin Kluivert","Bournemouth",26,23,4],
+  ["Donyell Malen","AS Roma",26,38,13],
+  ["Crysencio Summerville","West Ham United",24,9,2],
+  ["Wout Weghorst","Ajax",33,56,13]
+]},
+
+"France":{coach:"Didier Deschamps",cap:"Kylian Mbappe",ranking:2,wc_best:"Winnaar (1998,2018)",
+gk:[
+  ["Mike Maignan","AC Milan",29,28,0],
+  ["Robin Risser","Freiburg",24,3,0],
+  ["Brice Samba","RC Lens",30,8,0]
+],
+def:[
+  ["Lucas Digne","Aston Villa",31,52,5],
+  ["Malo Gusto","Chelsea",22,10,0],
+  ["Lucas Hernandez","Paris Saint-Germain",29,42,1],
+  ["Theo Hernandez","AC Milan",27,43,7],
+  ["Ibrahima Konate","Liverpool",26,26,2],
+  ["Maxence Lacroix","Paris Saint-Germain",25,9,0],
+  ["Jules Kounde","Barcelona",26,46,2],
+  ["William Saliba","Arsenal",24,27,2],
+  ["Dayot Upamecano","Bayern Munich",26,45,2]
+],
+mid:[
+  ["N'Golo Kante","Al-Ittihad",34,62,2],
+  ["Manu Kone","AS Roma",23,16,1],
+  ["Adrien Rabiot","Marseille",30,50,12],
+  ["Aurelien Tchouameni","Real Madrid",25,40,3],
+  ["Warren Zaire-Emery","Paris Saint-Germain",19,17,2]
+],
+fwd:[
+  ["Maghnes Akliouche","AS Monaco",23,8,1],
+  ["Bradley Barcola","Paris Saint-Germain",22,17,5],
+  ["Rayan Cherki","Liverpool",22,8,1],
+  ["Ousmane Dembele","Paris Saint-Germain",28,52,13],
+  ["Desire Doue","Paris Saint-Germain",20,6,1],
+  ["Michael Olise","Bayern Munich",23,15,5],
+  ["Kylian Mbappe","Real Madrid",27,92,53],
+  ["Jean-Philippe Mateta","Crystal Palace",27,14,4],
+  ["Marcus Thuram","Inter Milan",27,33,14]
+]},
+
+"Germany":{coach:"Julian Nagelsmann",cap:"Joshua Kimmich",ranking:12,wc_best:"Winnaar (1954,1974,1990,2014)",
+gk:[
+  ["Manuel Neuer","Bayern Munich",39,124,0],
+  ["Oliver Baumann","TSG Hoffenheim",34,8,0],
+  ["Alexander Nuebel","Stuttgart",28,5,0]
+],
+def:[
+  ["Nico Schlotterbeck","Borussia Dortmund",25,24,2],
+  ["David Raum","RB Leipzig",26,38,5],
+  ["Nathaniel Brown","Leeds United",22,8,0],
+  ["Jonathan Tah","Bayern Munich",29,39,1],
+  ["Waldemar Anton","Borussia Dortmund",28,22,0],
+  ["Joshua Kimmich","Bayern Munich",30,100,8],
+  ["Malick Thiaw","AC Milan",23,9,1],
+  ["Antonio Rudiger","Real Madrid",32,78,5]
+],
+mid:[
+  ["Pascal Gross","Borussia Dortmund",33,21,3],
+  ["Leon Goretzka","Bayern Munich",30,56,19],
+  ["Felix Nmecha","Borussia Dortmund",24,12,2],
+  ["Jamal Musiala","Bayern Munich",22,52,16],
+  ["Nadiem Amiri","Leverkusen",28,17,0],
+  ["Jamie Leweling","Stuttgart",24,8,1],
+  ["Lennart Karl","Stuttgart",21,2,0],
+  ["Florian Wirtz","Bayer Leverkusen",22,34,11],
+  ["Leroy Sane","Bayern Munich",29,66,18],
+  ["Aleksandar Pavlovic","Bayern Munich",20,12,1],
+  ["Angelo Stiller","Stuttgart",24,10,0]
+],
+fwd:[
+  ["Kai Havertz","Arsenal",26,59,21],
+  ["Nick Woltemade","Stuttgart",23,4,2],
+  ["Deniz Undav","Stuttgart",28,18,6],
+  ["Maximilian Beier","Borussia Dortmund",22,10,3]
+]},
+
+"Spain":{coach:"Luis de la Fuente",cap:"Alvaro Morata",ranking:4,wc_best:"Winnaar (2010)",
+gk:[
+  ["David Raya","Arsenal",29,18,0],
+  ["Unai Simon","Athletic Bilbao",28,32,0],
+  ["Alex Remiro","Real Sociedad",29,12,0]
+],
+def:[
+  ["Dani Carvajal","Real Madrid",33,53,3],
+  ["Alejandro Grimaldo","Bayer Leverkusen",29,26,4],
+  ["Robin Le Normand","Atletico Madrid",28,22,2],
+  ["Aymeric Laporte","Al-Nassr",31,44,3],
+  ["Nacho Fernandez","Fenerbahce",35,45,2],
+  ["Nico Williams","Athletic Bilbao",22,28,7],
+  ["Dani Olmo","Barcelona",27,46,17]
+],
+mid:[
+  ["Pedri","Barcelona",23,50,8],
+  ["Fabian Ruiz","Paris Saint-Germain",28,44,8],
+  ["Martin Zubimendi","Arsenal",26,22,1],
+  ["Mikel Merino","Arsenal",28,52,11],
+  ["Marcos Llorente","Atletico Madrid",30,34,7],
+  ["Mikel Oyarzabal","Real Sociedad",28,46,23]
+],
+fwd:[
+  ["Lamine Yamal","Barcelona",18,28,9],
+  ["Alvaro Morata","AC Milan",33,87,38],
+  ["Ferran Torres","Barcelona",25,46,20],
+  ["Yeremy Pino","Villarreal",22,27,5],
+  ["Gavi","Barcelona",21,44,6],
+  ["Joselu","Real Madrid",35,22,11],
+  ["Ayoze Perez","Villarreal",32,23,5],
+  ["Bryan Gil","Girona",24,14,1]
+]},
+
+"Argentina":{coach:"Lionel Scaloni",cap:"Lionel Messi",ranking:1,wc_best:"Winnaar (1978,1986,2022)",
+gk:[
+  ["Emiliano Martinez","Aston Villa",32,38,0],
+  ["Geronimo Rulli","Atletico Madrid",32,20,0],
+  ["Juan Musso","Atalanta",31,12,0]
+],
+def:[
+  ["Leonardo Balerdi","Marseille",25,9,0],
+  ["Gonzalo Montiel","Nottingham Forest",27,38,2],
+  ["Nicolas Tagliafico","Lyon",32,58,4],
+  ["Lisandro Martinez","Manchester United",27,36,1],
+  ["Cristian Romero","Tottenham Hotspur",26,41,5],
+  ["Nicolas Otamendi","Benfica",37,102,12],
+  ["Facundo Medina","RC Lens",25,11,1],
+  ["Nahuel Molina","Atletico Madrid",27,49,8]
+],
+mid:[
+  ["Leandro Paredes","AS Roma",31,75,8],
+  ["Rodrigo De Paul","Atletico Madrid",30,76,15],
+  ["Valentin Barco","Brighton",20,4,0],
+  ["Giovani Lo Celso","Villarreal",28,58,9],
+  ["Exequiel Palacios","Bayer Leverkusen",26,36,6],
+  ["Alexis Mac Allister","Liverpool",26,52,12],
+  ["Enzo Fernandez","Chelsea",24,42,7]
+],
+fwd:[
+  ["Julian Alvarez","Atletico Madrid",25,61,31],
+  ["Lionel Messi","Inter Miami",38,193,112],
+  ["Nicolas Gonzalez","Juventus",27,44,12],
+  ["Thiago Almada","Botafogo",24,14,4],
+  ["Giuliano Simeone","Atletico Madrid",22,6,1],
+  ["Nicolas Paz","Como",21,4,0],
+  ["Jose Manuel Lopez","Girona",22,3,0],
+  ["Lautaro Martinez","Inter Milan",27,72,35]
+]},
+
+"Brazil":{coach:"Carlo Ancelotti",cap:"Marquinhos",ranking:5,wc_best:"Winnaar (1958,1962,1970,1994,2002)",
+gk:[
+  ["Alisson","Liverpool",32,78,1],
+  ["Ederson","Manchester City",31,40,0],
+  ["Weverton","Palmeiras",37,20,0]
+],
+def:[
+  ["Alex Sandro","Juventus",34,36,6],
+  ["Bremer","Juventus",27,21,1],
+  ["Danilo","Juventus",33,88,7],
+  ["Douglas Santos","Zenit",30,14,0],
+  ["Gabriel Magalhaes","Arsenal",27,26,3],
+  ["Ibanez","Al-Ahli",26,16,1],
+  ["Leo Pereira","Flamengo",28,12,1],
+  ["Marquinhos","Paris Saint-Germain",31,90,11],
+  ["Wesley","Flamengo",23,8,0]
+],
+mid:[
+  ["Bruno Guimaraes","Newcastle United",27,47,7],
+  ["Casemiro","Manchester United",33,82,8],
+  ["Danilo Santos","Nottingham Forest",23,10,0],
+  ["Fabinho","Al-Ittihad",31,42,4],
+  ["Lucas Paqueta","West Ham United",27,54,15]
+],
+fwd:[
+  ["Endrick","Real Madrid",18,22,6],
+  ["Gabriel Martinelli","Arsenal",24,28,7],
+  ["Igor Thiago","Club Brugge",24,8,2],
+  ["Luiz Henrique","Botafogo",24,11,1],
+  ["Matheus Cunha","Wolverhampton",26,24,6],
+  ["Neymar Jr","Al-Hilal",33,129,79],
+  ["Raphinha","Barcelona",28,49,19],
+  ["Rayan","Flamengo",17,3,0],
+  ["Vinicius Jr","Real Madrid",24,78,30]
+]},
+
+"England":{coach:"Thomas Tuchel",cap:"Harry Kane",ranking:6,wc_best:"Winnaar (1966)",
+gk:[
+  ["Jordan Pickford","Everton",31,62,0],
+  ["Dean Henderson","Crystal Palace",28,2,0],
+  ["James Trafford","Burnley",22,6,0]
+],
+def:[
+  ["Reece James","Chelsea",25,29,2],
+  ["Ezri Konsa","Aston Villa",27,20,1],
+  ["Jarell Quansah","Liverpool",22,7,0],
+  ["John Stones","Manchester City",31,81,3],
+  ["Marc Guehi","Crystal Palace",24,26,1],
+  ["Dan Burn","Newcastle United",32,8,0],
+  ["Nico O'Reilly","Manchester City",20,4,0],
+  ["Djed Spence","Leeds United",24,3,0],
+  ["Tino Livramento","Newcastle United",22,8,0]
+],
+mid:[
+  ["Declan Rice","Arsenal",26,64,8],
+  ["Elliot Anderson","Nottingham Forest",22,8,1],
+  ["Kobbie Mainoo","Manchester United",20,17,2],
+  ["Jordan Henderson","Ajax",35,81,3],
+  ["Morgan Rogers","Aston Villa",22,7,1],
+  ["Jude Bellingham","Real Madrid",22,52,18],
+  ["Eberechi Eze","Crystal Palace",27,21,6]
+],
+fwd:[
+  ["Harry Kane","Bayern Munich",31,100,68],
+  ["Ivan Toney","Al-Ahli",29,18,2],
+  ["Ollie Watkins","Aston Villa",29,29,12],
+  ["Bukayo Saka","Arsenal",23,56,21],
+  ["Marcus Rashford","Aston Villa",27,60,17],
+  ["Anthony Gordon","Liverpool",24,14,3],
+  ["Noni Madueke","Chelsea",23,14,3]
+]},
+
+"Portugal":{coach:"Carlos Queiroz",cap:"Cristiano Ronaldo",ranking:8,wc_best:"3e Plaats (1966)",
+gk:[
+  ["Diogo Costa","Porto",25,26,0],
+  ["Jose Sa","Wolverhampton",31,22,0],
+  ["Rui Silva","Real Betis",31,8,0]
+],
+def:[
+  ["Tomas Araujo","Benfica",23,12,0],
+  ["Joao Cancelo","Barcelona",31,62,6],
+  ["Diogo Dalot","Manchester United",26,36,3],
+  ["Ruben Dias","Manchester City",28,69,4],
+  ["Goncalo Inacio","Sporting CP",23,24,2],
+  ["Nuno Mendes","Paris Saint-Germain",23,38,2],
+  ["Matheus Nunes","Manchester City",26,24,1],
+  ["Nelson Semedo","Wolverhampton",31,43,1],
+  ["Renato Veiga","Chelsea",22,8,1]
+],
+mid:[
+  ["Samuel Costa","Atalanta",27,12,0],
+  ["Bruno Fernandes","Manchester United",30,89,22],
+  ["Joao Neves","Paris Saint-Germain",20,22,2],
+  ["Ruben Neves","Al-Hilal",28,71,6],
+  ["Bernardo Silva","Manchester City",31,90,26],
+  ["Vitinha","Paris Saint-Germain",25,42,4]
+],
+fwd:[
+  ["Francisco Conceicao","Juventus",22,22,6],
+  ["Joao Felix","Chelsea",25,52,10],
+  ["Goncalo Guedes","Benfica",28,56,12],
+  ["Rafael Leao","AC Milan",26,46,10],
+  ["Pedro Neto","Chelsea",25,42,9],
+  ["Goncalo Ramos","Paris Saint-Germain",24,32,14],
+  ["Cristiano Ronaldo","Al-Nassr",41,227,137],
+  ["Francisco Trincao","Sporting CP",25,30,5]
+]},
+
+"Belgium":{coach:"Domenico Tedesco",cap:"Kevin De Bruyne",ranking:11,wc_best:"3e Plaats (2018)",
+gk:[
+  ["Thibaut Courtois","Real Madrid",33,108,0],
+  ["Senne Lammens","Royal Antwerp",25,8,0],
+  ["Mike Penders","Chelsea",21,2,0]
+],
+def:[
+  ["Timothy Castagne","Fulham",29,58,5],
+  ["Zeno Debast","Sporting CP",22,22,0],
+  ["Maxim De Cuyper","Club Brugge",25,14,2],
+  ["Koni De Winter","Genk",23,10,0],
+  ["Brandon Mechele","Club Brugge",33,22,1],
+  ["Thomas Meunier","Club Brugge",33,76,6],
+  ["Nathan Ngoy","Juventus",21,3,0],
+  ["Joaquin Seys","Club Brugge",21,4,0],
+  ["Arthur Theate","Rennes",24,24,1]
+],
+mid:[
+  ["Kevin De Bruyne","Manchester City",33,103,28],
+  ["Amadou Onana","Aston Villa",23,28,2],
+  ["Nicolas Raskin","Rangers",23,12,1],
+  ["Youri Tielemans","Aston Villa",27,84,17],
+  ["Hans Vanaken","Club Brugge",32,60,11],
+  ["Axel Witsel","Atletico Madrid",36,136,12]
+],
+fwd:[
+  ["Charles De Ketelaere","Atalanta",24,32,6],
+  ["Jeremy Doku","Manchester City",23,34,9],
+  ["Matias Fernandez-Pardo","Lille",23,4,0],
+  ["Romelu Lukaku","Napoli",31,120,78],
+  ["Dodi Lukebakio","Sevilla",27,28,8],
+  ["Diego Moreira","Benfica",21,4,0],
+  ["Alexis Saelemaekers","AS Roma",26,28,3],
+  ["Leandro Trossard","Arsenal",30,56,18]
+]},
+
+"Norway":{coach:"Stale Solbakken",cap:"Erling Haaland",ranking:23,wc_best:"Kwartfinale (1938)",
+gk:[
+  ["Orjan Haskjold Nyland","Brentford",34,32,0],
+  ["Egil Selvik","Molde",30,4,0],
+  ["Sander Tangvik","Lillestrom",24,2,0]
+],
+def:[
+  ["Kristoffer Vassbakk Ajer","Brentford",27,52,3],
+  ["Fredrik Bjorkan","Lokomotiv Moscow",27,28,2],
+  ["Henrik Falchener","Rosenborg",21,4,0],
+  ["Sondre Langas","NEC Nijmegen",25,8,0],
+  ["Torbjorn Heggem","Club Brugge",24,10,0],
+  ["Marcus Holmgren Pedersen","Fiorentina",28,42,4],
+  ["Julian Ryerson","Borussia Dortmund",27,44,3],
+  ["David Moller Wolfe","Bodoe/Glimt",26,14,0],
+  ["Leo Ostigard","Napoli",25,28,4]
+],
+mid:[
+  ["Thelonious Aasgaard","Wigan Athletic",22,8,1],
+  ["Fredrik Aursnes","Benfica",29,48,4],
+  ["Patrick Berg","Club Brugge",28,26,1],
+  ["Sander Berge","Burnley",27,55,5],
+  ["Oscar Bobb","Manchester City",22,18,4],
+  ["Jens Petter Hauge","Eintracht Frankfurt",25,24,6],
+  ["Antonio Nusa","Club Brugge",20,18,5],
+  ["Andreas Schjelderup","Benfica",21,12,3],
+  ["Morten Thorsby","Genoa",29,44,4],
+  ["Kristian Thorstvedt","Sassuolo",26,36,6],
+  ["Martin Odegaard","Arsenal",26,96,32]
+],
+fwd:[
+  ["Erling Haaland","Manchester City",25,38,33],
+  ["Alexander Sorloth","Atletico Madrid",29,61,28],
+  ["Jorgen Strand Larsen","Celta Vigo",25,28,9]
+]},
+
+"Morocco":{coach:"Jamal Sellami",cap:"Achraf Hakimi",ranking:14,wc_best:"Halve Finale (2022)",
+gk:[
+  ["Yassine Bounou","Al-Hilal",33,56,0],
+  ["Munir El Kajoui","Deportivo La Coruna",34,8,0],
+  ["Ahmed Reda Tagnaouti","Wydad Casablanca",31,22,0]
+],
+def:[
+  ["Noussair Mazraoui","Manchester United",27,42,5],
+  ["Anas Salah-Eddine","Nantes",24,12,0],
+  ["Youssef Bellammari","Strasbourg",22,4,0],
+  ["Achraf Hakimi","Paris Saint-Germain",27,86,18],
+  ["Zakaria El Ouahdi","RB Leipzig",23,10,1],
+  ["Nayef Aguerd","West Ham United",28,46,6],
+  ["Chadi Riad","Real Betis",22,8,0],
+  ["Redouane Halhal","Nantes",26,12,0],
+  ["Issa Diop","Fulham",28,14,0]
+],
+mid:[
+  ["Samir El Mourabet","St Pauli",27,10,0],
+  ["Ayoub Bouaddi","Lille",18,6,1],
+  ["Neil El Aynaoui","Rennes",23,10,0],
+  ["Sofyan Amrabat","Fiorentina",28,58,4],
+  ["Azzedine Ounahi","Auxerre",24,30,4],
+  ["Bilal El Khannouss","Genk",21,22,5],
+  ["Ismael Saibari","PSV Eindhoven",24,18,3]
+],
+fwd:[
+  ["Abdesamad Ezzalzouli","Real Betis",25,22,6],
+  ["Chemsdine Talbi","Sporting CP",21,8,2],
+  ["Soufiane Rahimi","Al-Ain",27,22,12],
+  ["Ayoub El Kaabi","Olympiacos",28,28,14],
+  ["Brahim Diaz","Real Madrid",25,28,8],
+  ["Yassine Gessim","Simba SC",26,8,1],
+  ["Ayoube Amaimouni","Nantes",24,6,1]
+]},
+
+"Senegal":{coach:"Pape Thiaw",cap:"Sadio Mane",ranking:18,wc_best:"Kwartfinale (2002,2022)",
+gk:[
+  ["Edouard Mendy","Al-Ahli",32,36,0],
+  ["Mory Diaw","Clermont",30,6,0],
+  ["Yehvann Diouf","Stade de Reims",26,8,0]
+],
+def:[
+  ["Krepin Diatta","AS Monaco",26,42,8],
+  ["Antoine Mendy","Nantes",29,18,0],
+  ["Kalidou Koulibaly","Al-Hilal",33,76,7],
+  ["El Hadji Malick Diouf","Leeds United",23,12,1],
+  ["Mamadou Sarr","Chelsea",19,4,0],
+  ["Moussa Niakhate","Nottingham Forest",28,22,2],
+  ["Abdoulaye Seck","Amiens",30,14,0],
+  ["Ismail Jakobs","AS Monaco",25,24,2]
+],
+mid:[
+  ["Idrissa Gana Gueye","Everton",35,88,4],
+  ["Pape Gueye","Villarreal",26,24,1],
+  ["Lamine Camara","AS Monaco",21,18,5],
+  ["Habib Diarra","Strasbourg",20,8,1],
+  ["Pathe Ciss","Villarreal",30,14,0],
+  ["Pape Matar Sarr","Tottenham Hotspur",22,28,4],
+  ["Bara Sapoko Ndiaye","Bordeaux",22,4,0]
+],
+fwd:[
+  ["Sadio Mane","Al-Nassr",32,105,45],
+  ["Ismaila Sarr","Crystal Palace",27,60,22],
+  ["Iliman Ndiaye","Everton",25,32,8],
+  ["Assane Diao","Real Betis",21,10,3],
+  ["Ibrahim Mbaye","Rodez",22,4,1],
+  ["Nicolas Jackson","Chelsea",24,24,8],
+  ["Bamba Dieng","Montpellier",24,16,4],
+  ["Cherif Ndiaye","Osmanlispor",30,8,2]
+]},
+
+"Japan":{coach:"Hajime Moriyasu",cap:"Wataru Endo",ranking:18,wc_best:"Ronde van 16 (2022)",
+gk:[
+  ["Tomoki Hayakawa","Gamba Osaka",21,4,0],
+  ["Keisuke Osako","Sanfrecce Hiroshima",22,3,0],
+  ["Zion Suzuki","Sint-Truiden",22,18,0]
+],
+def:[
+  ["Ko Itakura","Borussia Monchengladbach",28,42,1],
+  ["Hiroki Ito","Bayern Munich",26,30,4],
+  ["Yuto Nagatomo","Tokyo Verdy",38,146,5],
+  ["Ayumu Seko","Sporting CP",22,6,0],
+  ["Yukinari Sugawara","Southampton",23,22,2],
+  ["Junnosuke Suzuki","AZ Alkmaar",22,4,0],
+  ["Shogo Taniguchi","Kawasaki Frontale",33,40,3],
+  ["Takehiro Tomiyasu","Arsenal",26,46,2],
+  ["Tsuyoshi Watanabe","FC Tokyo",26,20,1]
+],
+mid:[
+  ["Ritsu Doan","Freiburg",26,54,18],
+  ["Wataru Endo","Liverpool",32,74,6],
+  ["Junya Ito","Reims",32,54,12],
+  ["Daichi Kamada","Crystal Palace",28,52,14],
+  ["Takefusa Kubo","Real Sociedad",24,34,8],
+  ["Keito Nakamura","Reims",24,12,4],
+  ["Kaishu Sano","Urawa Reds",21,4,0],
+  ["Ao Tanaka","Leeds United",26,38,6]
+],
+fwd:[
+  ["Keisuke Goto","Kashima Antlers",26,8,2],
+  ["Daizen Maeda","Celtic",27,38,10],
+  ["Koki Ogawa","Parma",26,22,6],
+  ["Kento Shiogai","Urawa Reds",24,6,1],
+  ["Yuito Suzuki","Urawa Reds",23,4,1],
+  ["Ayase Ueda","Feyenoord",26,28,11]
+]},
+
+"Croatia":{coach:"Zlatko Dalic",cap:"Luka Modric",ranking:10,wc_best:"Finalist (2018)",
+gk:[
+  ["Dominik Livakovic","Fenerbahce",29,52,0],
+  ["Dominik Kotarski","Al-Qadsiah",27,12,0],
+  ["Ivor Pandur","Lecce",24,8,0]
+],
+def:[
+  ["Josko Gvardiol","Manchester City",23,44,6],
+  ["Duje Caleta-Car","Southampton",28,52,4],
+  ["Josip Sutalo","Ajax",25,22,2],
+  ["Josip Stanisic","Bayer Leverkusen",25,18,1],
+  ["Marin Pongracic","Fiorentina",27,22,1],
+  ["Martin Erlic","Torino",27,20,2],
+  ["Luka Vuskovic","Hamburg SV",20,6,0]
+],
+mid:[
+  ["Luka Modric","Real Madrid",40,181,34],
+  ["Mateo Kovacic","Manchester City",31,107,11],
+  ["Mario Pasalic","Atalanta",29,58,10],
+  ["Nikola Vlasic","Torino",28,64,12],
+  ["Luka Sucic","Salzburg",23,22,4],
+  ["Martin Baturina","Club Brugge",22,14,3],
+  ["Kristijan Jakic","Fiorentina",27,36,2],
+  ["Petar Sucic","Dinamo Zagreb",21,4,0],
+  ["Nikola Moro","Lazio",28,16,1],
+  ["Toni Fruk","NK Osijek",24,6,0]
+],
+fwd:[
+  ["Ivan Perisic","Hajduk Split",36,136,37],
+  ["Andrej Kramaric","TSG Hoffenheim",34,100,37],
+  ["Ante Budimir","Osasuna",33,40,8],
+  ["Marco Pasalic","Almeria",26,6,0],
+  ["Petar Musa","Benfica",27,18,6],
+  ["Igor Matanovic","Eintracht Frankfurt",23,8,2]
+]},
+
+"Colombia":{coach:"Nestor Lorenzo",cap:"James Rodriguez",ranking:20,wc_best:"Kwartfinale (2014)",
+gk:[
+  ["Camilo Vargas","Club America",34,42,0],
+  ["Alvaro Montero","Millonarios",30,16,0],
+  ["David Ospina","Millonarios",36,127,0]
+],
+def:[
+  ["Davinson Sanchez","Galatasaray",28,72,7],
+  ["Jhon Lucumi","Bologna",26,28,2],
+  ["Yerry Mina","Valencia",30,68,12],
+  ["Willer Ditta","Club America",29,14,0],
+  ["Daniel Munoz","Crystal Palace",28,32,5],
+  ["Santiago Arias","Club Atletico Mineiro",33,56,5],
+  ["Johan Mojica","Girona",32,28,2],
+  ["Deiver Machado","Cruz Azul",33,44,3]
+],
+mid:[
+  ["Richard Rios","Palmeiras",25,22,4],
+  ["Jefferson Lerma","Crystal Palace",30,80,5],
+  ["Kevin Castano","Atletico Mineiro",25,10,1],
+  ["Juan Camilo Portilla","Independiente Medellin",22,4,0],
+  ["Gustavo Puerta","Bayer Leverkusen",21,8,1],
+  ["Jhon Arias","Fluminense",27,30,8],
+  ["Jorge Carrascal","Dynamo Moscow",27,18,5],
+  ["Juan Fernando Quintero","Atletico Mineiro",31,48,9],
+  ["James Rodriguez","Rayo Vallecano",34,103,28],
+  ["Jaminton Campaz","Toluca",25,8,2]
+],
+fwd:[
+  ["Juan Camilo Hernandez","Wolverhampton",29,54,16],
+  ["Luis Diaz","Liverpool",28,58,24],
+  ["Luis Suarez","Al-Ain",27,10,2],
+  ["Carlos Gomez","Rayo Vallecano",27,8,1],
+  ["Jhon Cordoba","Krasnodar",31,46,12]
+]},
+
+"Australia":{coach:"Tony Popovic",cap:"Mathew Ryan",ranking:24,wc_best:"Kwartfinale (2006)",
+gk:[
+  ["Patrick Beach","Al-Qadsiah",28,4,0],
+  ["Paul Izzo","Kashiwa Reysol",28,8,0],
+  ["Mathew Ryan","FC Copenhagen",32,90,0]
+],
+def:[
+  ["Aziz Behich","Dundee United",34,66,3],
+  ["Jordan Bos","Antwerp",25,12,0],
+  ["Cameron Burgess","Ipswich Town",30,20,0],
+  ["Alessandro Circati","Parma",23,4,0],
+  ["Milos Degenek","Columbus Crew",32,62,2],
+  ["Jason Geria","Melbourne Victory",23,12,0],
+  ["Lucas Herrington","Melbourne City",24,4,0],
+  ["Jacob Italiano","Melbourne City",22,3,0],
+  ["Harry Souttar","Leicester City",26,32,4],
+  ["Kai Trewin","Newcastle United",19,2,0]
+],
+mid:[
+  ["Cameron Devlin","Hearts",27,14,1],
+  ["Ajdin Hrustic","Hellas Verona",27,38,4],
+  ["Jackson Irvine","St Pauli",31,80,12],
+  ["Connor Metcalfe","St Pauli",25,20,1],
+  ["Aiden O'Neill","Deportivo La Coruna",26,14,0],
+  ["Paul Okon-Engstler","Hajduk Split",22,4,0]
+],
+fwd:[
+  ["Nestory Irankunda","Bayern Munich",19,10,2],
+  ["Mathew Leckie","Melbourne City",34,92,18],
+  ["Awer Mabil","Panathinaikos",30,56,13],
+  ["Mohamed Toure","Middlesbrough",22,4,0],
+  ["Nishan Velupillay","Melbourne Victory",22,4,1],
+  ["Cristian Volpato","AS Roma",23,12,2],
+  ["Tete Yengi","Ipswich Town",25,10,4]
+]},
+
+"Ecuador":{coach:"Sebastian Beccacece",cap:"Enner Valencia",ranking:28,wc_best:"Ronde van 16 (2006)",
+gk:[
+  ["Hernan Galindez","Aucas",36,52,0],
+  ["Moises Ramirez","Independiente del Valle",26,22,0],
+  ["Gonzalo Valle","Orense",24,4,0]
+],
+def:[
+  ["Piero Hincapie","Bayer Leverkusen",23,42,2],
+  ["Willian Pacho","Paris Saint-Germain",23,26,1],
+  ["Pervis Estupinan","Brighton",27,56,3],
+  ["Felix Torres","Querétaro",28,36,4],
+  ["Joel Ordonez","Boavista",22,8,0],
+  ["Jackson Porozo","Almeria",24,18,0],
+  ["Angelo Preciado","Tigres",27,46,2],
+  ["Yaimar Medina","Independiente del Valle",29,24,1]
+],
+mid:[
+  ["Moises Caicedo","Chelsea",23,46,4],
+  ["Alan Franco","Talleres",27,38,4],
+  ["Kendry Paez","Chelsea",18,12,3],
+  ["Gonzalo Plata","Sporting Lisbon",24,44,8],
+  ["Pedro Vite","Club America",24,18,2],
+  ["Jordy Alcivar","Zulte Waregem",27,28,2],
+  ["Denil Castillo","Pachuca",26,14,2],
+  ["John Yeboah","Eintracht Frankfurt",24,8,2],
+  ["Nilson Angulo","Kasimpasa",22,6,1],
+  ["Alan Minda","Almeria",25,10,1]
+],
+fwd:[
+  ["Enner Valencia","Club America",36,97,40],
+  ["Kevin Rodriguez","Ipswich Town",22,12,3],
+  ["Jordy Caicedo","Club America",31,40,12],
+  ["Anthony Valencia","Tigres",24,12,3],
+  ["Jeremy Arevalo","Club America",24,8,1]
+]},
+
+"Egypt":{coach:"Hossam Hassan",cap:"Mohamed Salah",ranking:33,wc_best:"Groepsfase (1934,1990,2018)",
+gk:[
+  ["Mohamed El Shenawy","Al-Ahly",36,64,0],
+  ["Mostafa Shobeir","Al-Ahly",26,12,0],
+  ["El Mahdy Soliman","Zamalek",27,6,0],
+  ["Mohamed Alaa","Al-Zamalek",28,4,0]
+],
+def:[
+  ["Mohamed Abdelmonem","Galatasaray",26,32,3],
+  ["Mohamed Hany","Al-Ahly",27,38,2],
+  ["Yasser Ibrahim","Al-Ahly",28,30,3],
+  ["Hossam Abdelmaguid","Al-Ahly",31,34,3],
+  ["Ahmed Fattouh","Zamalek",26,18,1],
+  ["Tarek Alaa","Ceramica",27,14,1],
+  ["Rami Rabia","Al-Ahly",30,22,0],
+  ["Karim Hafez","Ceramica",26,10,0]
+],
+mid:[
+  ["Marwan Attia","Smouha",25,8,0],
+  ["Ahmed Sayed Zizo","Al-Ahly",31,68,14],
+  ["Mahmoud Hassan Trezeguet","Trabzonspor",30,82,17],
+  ["Emam Ashour","Zamalek",27,28,4],
+  ["Mostafa Abdel Raouf","Zamalek",25,12,1],
+  ["Mohannad Lasheen","Al-Ahly",26,14,2],
+  ["Haitham Hassan","Pyramids",28,16,2],
+  ["Mahmoud Saber","Zamalek",28,18,3],
+  ["Ibrahim Adel","Al-Ahly",21,14,2],
+  ["Nabil Emad","Ceramica",22,8,1],
+  ["Hamdi Fathi","Al-Ahly",30,48,4]
+],
+fwd:[
+  ["Mohamed Salah","Liverpool",33,105,58],
+  ["Omar Marmoush","Manchester City",26,36,18],
+  ["Hamza Abdel Karim","Zamalek",24,8,2]
+]},
+
+"Mexico":{coach:"Javier Aguirre",cap:"Guillermo Ochoa",ranking:15,wc_best:"Kwartfinale (1970,1986)",
+gk:[
+  ["Raul Rangel","Chivas",27,18,0],
+  ["Guillermo Ochoa","Salernitana",39,156,0],
+  ["Carlos Acevedo","Santos Laguna",29,8,0]
+],
+def:[
+  ["Jorge Sanchez","Ajax",28,52,3],
+  ["Israel Reyes","Club America",26,18,0],
+  ["Cesar Montes","Espanyol",27,56,4],
+  ["Johan Vasquez","Genoa",26,36,2],
+  ["Jesus Gallardo","Club America",30,68,7],
+  ["Mateo Chavez","Atlas",24,12,0],
+  ["Edson Alvarez","West Ham United",27,78,4]
+],
+mid:[
+  ["Erik Lira","Cruz Azul",25,22,1],
+  ["Orbelin Pineda","AEK Athens",28,72,12],
+  ["Alvaro Fidalgo","Club America",27,22,5],
+  ["Brian Gutierrez","Chicago Fire",22,8,1],
+  ["Luis Romo","Cruz Azul",30,40,3],
+  ["Obed Vargas","Stuttgart",21,12,1],
+  ["Gilberto Mora","Club America",25,10,0],
+  ["Luis Chavez","Pachuca",29,44,8]
+],
+fwd:[
+  ["Roberto Alvarado","Chivas",26,42,8],
+  ["Cesar Huerta","Pumas",25,22,6],
+  ["Alexis Vega","Chivas",28,52,12],
+  ["Julian Quinones","Club America",27,14,5],
+  ["Guillermo Martinez","Pumas",30,22,6],
+  ["Armando Gonzalez","Club America",23,4,1],
+  ["Santiago Gimenez","AC Milan",24,32,16],
+  ["Raul Jimenez","Fulham",34,110,44]
+]},
+
+"USA":{coach:"Mauricio Pochettino",cap:"Christian Pulisic",ranking:16,wc_best:"Halve Finale (1930)",
+gk:[
+  ["Matt Turner","Nottingham Forest",30,38,0],
+  ["Ethan Horvath","Luton Town",29,14,0],
+  ["Patrick Schulte","Columbus Crew",24,6,0]
+],
+def:[
+  ["Sergino Dest","PSV Eindhoven",25,34,3],
+  ["Joe Scally","Borussia Monchengladbach",22,18,0],
+  ["Tim Ream","Charlotte FC",37,58,2],
+  ["Chris Richards","Crystal Palace",25,22,1],
+  ["Cameron Carter-Vickers","Celtic",27,28,1],
+  ["DeAndre Yedlin","Inter Miami",32,76,2],
+  ["Mark McKenzie","Genk",26,20,1],
+  ["Antonee Robinson","Fulham",27,46,4]
+],
+mid:[
+  ["Tyler Adams","Bournemouth",26,54,4],
+  ["Weston McKennie","Juventus",27,64,12],
+  ["Yunus Musah","AC Milan",22,48,4],
+  ["Gio Reyna","Borussia Dortmund",23,26,6],
+  ["Brenden Aaronson","Leeds United",24,40,8],
+  ["Christian Pulisic","AC Milan",27,72,33],
+  ["Malik Tillman","PSV Eindhoven",23,18,4]
+],
+fwd:[
+  ["Ricardo Pepi","PSV Eindhoven",22,32,12],
+  ["Josh Sargent","Norwich City",25,34,8],
+  ["Jordan Morris","Seattle Sounders",30,68,22],
+  ["Folarin Balogun","Monaco",24,18,4],
+  ["Tim Weah","Juventus",25,38,7],
+  ["Bobby Wood","SV Sandhausen",32,62,18]
+]},
+
+"Switzerland":{coach:"Murat Yakin",cap:"Granit Xhaka",ranking:21,wc_best:"Kwartfinale (1934,1938,1954)",
+gk:[
+  ["Gregor Kobel","Borussia Dortmund",28,14,0],
+  ["Yann Sommer","Inter Milan",36,94,0],
+  ["Yvon Mvogo","Lorient",30,16,0]
+],
+def:[
+  ["Nico Elvedi","Borussia Monchengladbach",28,66,3],
+  ["Manuel Akanji","Manchester City",29,52,1],
+  ["Fabian Schar","Newcastle United",33,74,8],
+  ["Ricardo Rodriguez","Torino",33,92,8],
+  ["Silvan Widmer","Mainz",32,48,5],
+  ["Kevin Mbabu","Augsburg",29,38,2],
+  ["Edimilson Fernandes","Mainz",29,36,2]
+],
+mid:[
+  ["Granit Xhaka","Bayer Leverkusen",33,128,16],
+  ["Remo Freuler","Nottingham Forest",32,78,6],
+  ["Denis Zakaria","Chelsea",28,42,6],
+  ["Djibril Sow","Sevilla",28,38,4],
+  ["Michel Aebischer","Bologna",28,28,4],
+  ["Fabian Rieder","Rennes",23,14,3],
+  ["Ardon Jashari","Club Brugge",22,8,1]
+],
+fwd:[
+  ["Breel Embolo","AS Monaco",28,52,18],
+  ["Noah Okafor","AC Milan",25,26,9],
+  ["Kwadwo Duah","Trabzonspor",27,18,8],
+  ["Dan Ndoye","Bologna",24,22,6],
+  ["Zeki Amdouni","Burnley",24,20,6],
+  ["Ruben Vargas","Augsburg",26,52,8]
+]},
+
+"Canada":{coach:"Jesse Marsch",cap:"Alphonso Davies",ranking:35,wc_best:"Groepsfase (1986)",
+gk:[
+  ["Dayne St Clair","Minnesota United",28,28,0],
+  ["Maxime Crepeau","Los Angeles FC",31,22,0],
+  ["Owen Goodman","Girona",22,4,0]
+],
+def:[
+  ["Alistair Johnston","Celtic",26,42,4],
+  ["Derek Cornelius","FC Panathinaikos",28,38,0],
+  ["Richie Laryea","Toronto FC",30,44,4],
+  ["Niko Sigur","CF Montreal",23,8,0],
+  ["Joel Waterman","CF Montreal",29,14,0],
+  ["Luc de Fougerolles","Real Betis",22,4,0],
+  ["Moise Bombito","Colorado Rapids",23,14,0],
+  ["Alphonso Davies","Bayern Munich",25,72,14],
+  ["Alfie Jones","Southampton",28,12,1]
+],
+mid:[
+  ["Stephen Eustaquio","Porto",27,52,6],
+  ["Ismael Kone","Chelsea",23,26,2],
+  ["Tajon Buchanan","Inter Milan",26,52,8],
+  ["Mathieu Choiniere","Ajax",23,14,1],
+  ["Ali Ahmed","Nashville SC",22,8,0],
+  ["Nathan Saliba","Palermo",22,4,0],
+  ["Liam Millar","FC Basel",25,22,3],
+  ["Jacob Shaffelburg","Nashville SC",25,22,3],
+  ["Jonathan Osorio","Toronto FC",31,64,8]
+],
+fwd:[
+  ["Jonathan David","Lille",25,68,38],
+  ["Cyle Larin","Real Valladolid",30,64,28],
+  ["Tani Oluwaseyi","Minnesota United",23,8,2],
+  ["Promise David","Nashville SC",21,4,0]
+]},
+
+"South Korea":{coach:"Hong Myung-bo",cap:"Son Heungmin",ranking:22,wc_best:"Halve Finale (2002)",
+gk:[
+  ["Song Bumkeun","Jeonbuk",26,8,0],
+  ["Jo Hyeonwoo","Ulsan HD",34,52,0],
+  ["Kim Seung-gyu","Vissel Kobe",36,66,0]
+],
+def:[
+  ["Jens Castrop","Bochum",25,8,0],
+  ["Lee Hanbeom","Ulsan HD",24,4,0],
+  ["Park Jinseob","Gimcheon Sangmu",24,6,0],
+  ["Lee Kihyuk","Jeonbuk",22,4,0],
+  ["Kim Minjae","Bayern Munich",28,62,5],
+  ["Kim Moonhwan","FC Seoul",32,32,1],
+  ["Kim Taehyeon","Gimcheon Sangmu",24,4,0],
+  ["Lee Taeseok","Jeonbuk",26,22,1],
+  ["Seol Youngwoo","Gimcheon Sangmu",23,6,0],
+  ["Cho Wije","Southampton",26,12,0]
+],
+mid:[
+  ["Lee Donggyeong","Ulsan HD",28,40,4],
+  ["Hwang Heechan","Wolverhampton",29,66,18],
+  ["Yang Hyunjun","Celtic",23,16,4],
+  ["Hwang Inbeom","Freiburg",28,64,8],
+  ["Lee Jaesung","Mainz",31,68,10],
+  ["Kim Jingyu","Gimcheon Sangmu",22,4,0],
+  ["Eom Jisung","Middlesbrough",22,4,0],
+  ["Bae Junho","RC Lens",23,16,2],
+  ["Lee Kangin","Paris Saint-Germain",24,38,8],
+  ["Paik Seungho","Girona",27,32,4]
+],
+fwd:[
+  ["Cho Guesung","Celtic",26,34,14],
+  ["Son Heungmin","Tottenham Hotspur",34,131,50]
+]},
+
+"Iran":{coach:"Amir Ghalenoei",cap:"Alireza Jahanbakhsh",ranking:26,wc_best:"Groepsfase",
+gk:[
+  ["Alireza Beiranvand","Persepolis",32,72,0],
+  ["Seyed Hossein Hosseini","Esteghlal",34,48,0],
+  ["Payam Niazmand","Persepolis",30,8,0]
+],
+def:[
+  ["Danial Eiri","Groningen",22,8,0],
+  ["Ehsan Hajsafi","Partizan",34,124,9],
+  ["Saleh Hardani","Foolad",27,14,0],
+  ["Hossein Kanaani","Persepolis",26,22,0],
+  ["Shoja Khalilzadeh","Al-Gharafa",34,60,3],
+  ["Milad Mohammadi","Aris Limassol",30,54,3],
+  ["Ali Nemati","Esteghlal",29,20,1],
+  ["Ramin Rezaeian","Sparta Prague",33,72,3]
+],
+mid:[
+  ["Rouzbeh Cheshmi","Esteghlal",31,48,5],
+  ["Saeid Ezatolahi","Vejle",28,56,4],
+  ["Mehdi Ghaedi","Anderlecht",25,18,3],
+  ["Saman Ghoddos","Brentford",31,56,10],
+  ["Mohammad Ghorbani","Persepolis",27,18,1],
+  ["Alireza Jahanbakhsh","Feyenoord",31,106,36],
+  ["Mohammad Mohebi","Persepolis",22,8,0],
+  ["Amir Mohammad Razzaghinia","Persepolis",20,4,0],
+  ["Mehdi Torabi","Persepolis",30,58,8],
+  ["Aria Yousefi","Persepolis",19,4,0]
+],
+fwd:[
+  ["Ali Alipour","Maritimo",28,34,8],
+  ["Dennis Dargahi","Djurgarden",28,14,4],
+  ["Amirhossein Hosseinzadeh","Tractor",25,12,3],
+  ["Mehdi Taremi","Inter Milan",32,96,48],
+  ["Shahriar Moghanlou","Persepolis",25,10,2]
+]},
+
+"Scotland":{coach:"Steve Clarke",cap:"Andy Robertson",ranking:38,wc_best:"Groepsfase (1974,1978,1982,1990,1998)",
+gk:[
+  ["Craig Gordon","Hearts",41,80,0],
+  ["Angus Gunn","Norwich City",29,14,0],
+  ["Liam Kelly","Motherwell",32,8,0]
+],
+def:[
+  ["Grant Hanley","Norwich City",33,56,2],
+  ["Jack Hendry","Al-Etifaq",29,38,1],
+  ["Aaron Hickey","Brentford",23,24,2],
+  ["Dom Hyam","Reading",28,4,0],
+  ["Scott McKenna","Nottingham Forest",28,36,4],
+  ["Nathan Patterson","Everton",23,22,2],
+  ["Anthony Ralston","Celtic",26,18,1],
+  ["Andy Robertson","Liverpool",31,74,9],
+  ["John Souttar","Rangers",28,26,2],
+  ["Kieran Tierney","Arsenal",27,52,5]
+],
+mid:[
+  ["Ryan Christie","Bournemouth",30,58,12],
+  ["Findlay Curtis","Aberdeen",21,4,0],
+  ["Lewis Ferguson","Bologna",25,28,6],
+  ["Tyler Fletcher","Sheffield United",21,2,0],
+  ["Ben Gannon-Doak","Celtic",22,6,1],
+  ["John McGinn","Aston Villa",30,80,14],
+  ["Kenny McLean","Norwich City",32,46,5],
+  ["Scott McTominay","Napoli",28,64,13]
+],
+fwd:[
+  ["Che Adams","Southampton",29,40,10],
+  ["Lyndon Dykes","Queens Park Rangers",29,38,12],
+  ["George Hirst","Ipswich Town",26,8,2],
+  ["Lawrence Shankland","Hearts",29,28,9],
+  ["Ross Stewart","Sunderland",28,14,4]
+]},
+
+"Turkey":{coach:"Vincenzo Montella",cap:"Hakan Calhanoglu",ranking:27,wc_best:"3e Plaats (2002)",
+gk:[
+  ["Altay Bayindir","Manchester United",27,18,0],
+  ["Ugurcan Cakir","Trabzonspor",27,36,0],
+  ["Berke Ozer","Fenerbahce",24,8,0]
+],
+def:[
+  ["Zeki Celik","AS Roma",27,42,2],
+  ["Samet Akaydin","Fenerbahce",27,26,2],
+  ["Kaan Ayhan","Galatasaray",30,52,3],
+  ["Ferdi Kadioglu","Fenerbahce",26,52,6],
+  ["Abdulkerim Bardakci","Galatasaray",28,24,1],
+  ["Mert Muldur","Fenerbahce",26,44,3],
+  ["Enes Unal","Getafe",28,48,12]
+],
+mid:[
+  ["Hakan Calhanoglu","Inter Milan",31,86,21],
+  ["Salih Ozcan","Borussia Dortmund",26,42,2],
+  ["Orkun Kokcu","Benfica",24,34,6],
+  ["Kaan Kairinen","Fenerbahce",24,18,1],
+  ["Yunus Akgun","Galatasaray",24,26,4],
+  ["Okay Yokuslu","West Brom",31,54,4],
+  ["Halil Dervisoglu","Galatasaray",25,14,3]
+],
+fwd:[
+  ["Kerem Akturkoglu","Barcelona",27,54,16],
+  ["Baris Alper Yilmaz","Galatasaray",25,32,8],
+  ["Yusuf Yazici","Lille",28,44,10],
+  ["Cenk Tosun","Besiktas",34,86,30],
+  ["Arda Guler","Real Madrid",20,22,6],
+  ["Semih Kilicsoy","Besiktas",19,8,3]
+]},
+
+"Uruguay":{coach:"Marcelo Bielsa",cap:"Diego Godin",ranking:19,wc_best:"Winnaar (1930,1950)",
+gk:[
+  ["Sebastian Sosa","Independiente",37,28,0],
+  ["Sergio Rochet","Nacional",30,34,0],
+  ["Lucas Olaza","Celta Vigo",30,14,0]
+],
+def:[
+  ["Ronald Araujo","Barcelona",26,46,5],
+  ["Sebastian Caceres","Club America",26,28,1],
+  ["Jose Maria Gimenez","Atletico Madrid",30,72,8],
+  ["Martin Caceres","Nacional",37,128,5],
+  ["Mathias Olivera","Napoli",27,42,3],
+  ["Guillermo Varela","Flamengo",32,28,1],
+  ["Diego Godin","Velez Sarsfield",38,166,16],
+  ["Marcelo Saracchi","Boca Juniors",28,12,0]
+],
+mid:[
+  ["Federico Valverde","Real Madrid",26,72,18],
+  ["Manuel Ugarte","Manchester United",24,44,2],
+  ["Matias Vecino","Lazio",33,86,8],
+  ["Lucas Torreira","Galatasaray",29,72,6],
+  ["Nicolas de la Cruz","Flamengo",28,40,6],
+  ["Rodrigo Bentancur","Tottenham Hotspur",27,62,6]
+],
+fwd:[
+  ["Darwin Nunez","Liverpool",25,58,26],
+  ["Luis Suarez","River Plate",38,142,68],
+  ["Facundo Pellistri","Panathinaikos",24,26,6],
+  ["Maximiliano Araujo","Sporting CP",25,14,4],
+  ["Agustin Alvarez Martinez","Marseille",24,16,4],
+  ["Santiago Sureda","Barcelona",21,4,0],
+  ["Brian Rodriguez","Club America",25,28,6]
+]},
+
+"Paraguay":{coach:"Gustavo Alfaro",cap:"Miguel Almiron",ranking:44,wc_best:"Kwartfinale (2010)",
+gk:[
+  ["Orlando Gill","Sol de America",27,4,0],
+  ["Roberto Fernandez","Olimpia",36,28,0],
+  ["Gaston Olveira","Nacional Paraguay",28,8,0]
+],
+def:[
+  ["Juan Caceres","New York Red Bulls",27,22,0],
+  ["Gustavo Velazquez","Independiente",26,14,0],
+  ["Gustavo Gomez","Palmeiras",32,86,10],
+  ["Junior Alonso","Atletico Mineiro",32,34,2],
+  ["Jose Canale","San Lorenzo",26,8,0],
+  ["Omar Alderete","Hertha Berlin",27,26,2],
+  ["Alexandro Maidana","Independiente",27,12,0],
+  ["Fabian Balbuena","Dinamo Zagreb",33,56,5]
+],
+mid:[
+  ["Diego Gomez","Inter Miami",23,24,3],
+  ["Mauricio Magalhaes","Guarani",26,10,0],
+  ["Damian Bobadilla","Athletic Club",26,22,2],
+  ["Braian Ojeda","Nottingham Forest",24,14,1],
+  ["Andres Cubas","Nantes",29,32,3],
+  ["Matias Galarza","Genoa",23,12,1],
+  ["Alejandro Gamarra","Necaxa",25,8,0]
+],
+fwd:[
+  ["Gustavo Caballero","Olimpia",28,8,2],
+  ["Ramon Sosa","Nottingham Forest",24,28,6],
+  ["Alex Arce","Olimpia",22,8,2],
+  ["Isidro Pitta","San Jose Earthquakes",24,8,1],
+  ["Gabriel Avalos","Olimpia",35,28,8],
+  ["Miguel Almiron","Newcastle United",30,84,14],
+  ["Julio Enciso","Brighton",22,18,5],
+  ["Antonio Sanabria","Torino",29,52,14]
+]},
+
+"Ghana":{coach:"Carlos Queiroz",cap:"Thomas Partey",ranking:48,wc_best:"Kwartfinale (2010)",
+gk:[
+  ["Joseph Anang","West Ham United",24,8,0],
+  ["Benjamin Asare","Accra Lions",24,4,0],
+  ["Lawrence Ati-Zigi","Sion",28,28,0]
+],
+def:[
+  ["Jonas Adjetey","Ottawa Atlético",26,8,0],
+  ["Derrick Luckassen","Heracles",30,8,0],
+  ["Gideon Mensah","Red Bull Salzburg",26,22,1],
+  ["Abdul Mumin","Rayo Vallecano",26,18,0],
+  ["Jerome Opoku","Udinese",26,12,0],
+  ["Kojo Oppong Preprah","Randers",24,8,0],
+  ["Baba Abdul Rahman","Stade de Reims",30,40,1],
+  ["Alidu Seidu","Clermont",25,18,0],
+  ["Marvin Senaya","FC Twente",24,4,0]
+],
+mid:[
+  ["Augustine Boakye","Leipzig II",23,8,2],
+  ["Abdul Fatawu Issahaku","Leicester City",21,28,6],
+  ["Elisha Owusu","AZ Alkmaar",27,14,0],
+  ["Thomas Partey","Arsenal",31,62,12],
+  ["Kwasi Sibo","Kortrijk",25,8,0],
+  ["Kamal Deen Sulemana","Stuttgart",24,28,6],
+  ["Caleb Yirenkyi","FC Zurich",22,4,0]
+],
+fwd:[
+  ["Prince Kwabena Adu","Basaksehir",22,4,1],
+  ["Jordan Ayew","Leicester City",33,110,22],
+  ["Christopher Bonsu Baah","Reims",21,8,2],
+  ["Ernest Nuamah","Olympique Lyon",22,16,4],
+  ["Antoine Semenyo","Bournemouth",25,22,6],
+  ["Brandon Thomas-Asante","Coventry City",26,14,4],
+  ["Inaki Williams","Athletic Bilbao",30,16,4]
+]},
+
+"Bosnia":{coach:"Sergej Barbarez",cap:"Edin Dzeko",ranking:52,wc_best:"Groepsfase (2014)",
+gk:[
+  ["Nikola Vasilj","St Pauli",29,18,0],
+  ["Martin Zlomislic","Velez Mostar",28,4,0],
+  ["Osman Hadzikic","VfL Bochum",28,8,0]
+],
+def:[
+  ["Sead Kolasinac","Fenerbahce",31,66,2],
+  ["Amar Dedic","Red Bull Salzburg",23,12,0],
+  ["Nihad Mujakic","Hamburger SV",24,4,0],
+  ["Nikola Katic","Hajduk Split",28,22,1],
+  ["Tarik Muharemovic","Lautern",22,6,0],
+  ["Stjepan Radeljic","VfL Bochum",24,8,0],
+  ["Dennis Hadzikadunic","Stade de Reims",26,12,0],
+  ["Nidal Celik","Sarpsborg",24,4,0]
+],
+mid:[
+  ["Amir Hadziahmetovic","Nottingham Forest",25,28,2],
+  ["Ivan Sunjic","Hamburger SV",28,28,1],
+  ["Ivan Basic","Lorient",26,18,2],
+  ["Dzenis Burnic","Hamburger SV",28,22,2],
+  ["Ermin Mahmic","Slavia Prague",28,12,0],
+  ["Benjamin Tahirovic","Ajax",21,12,1],
+  ["Amar Memic","Hamburger SV",22,4,0],
+  ["Armin Gigovic","Kasimpasa",24,4,0],
+  ["Kerim Alajbegovic","Bayer Leverkusen",24,8,1],
+  ["Esmir Bajraktarevic","NE Revolution",20,4,0]
+],
+fwd:[
+  ["Ermedin Demirovic","Stuttgart",27,36,10],
+  ["Jovo Lukic","Zrinjski",26,4,1],
+  ["Samed Bazdar","Hannover",23,4,0],
+  ["Haris Tabakovic","Hertha Berlin",29,14,4],
+  ["Edin Dzeko","Fenerbahce",39,132,65]
+]},
+
+"Qatar":{coach:"Julen Lopetegui",cap:"Akram Afif",ranking:68,wc_best:"Groepsfase (2022)",
+gk:[
+  ["Salah Zakaria","Al-Sadd",32,28,0],
+  ["Meshaal Barsham","Al-Sadd",26,14,0],
+  ["Mahmoud Abunada","Qatar SC",28,8,0]
+],
+def:[
+  ["Boualem Khoukhi","Al-Sadd",33,54,3],
+  ["Pedro Miguel","Al-Duhail",34,62,4],
+  ["Sultan Al Brake","Al-Gharafa",28,22,1],
+  ["Al Hashmi Al Hussain","Al-Wakra",27,18,0],
+  ["Ayoub Al Alawi","Al-Sadd",26,14,0],
+  ["Issa Laye","Al-Ahli",25,12,0],
+  ["Lucas Mendes","Al-Duhail",30,24,1],
+  ["Homam Al Amin","Al-Arabi",22,6,0]
+],
+mid:[
+  ["Ahmed Fathi","Al-Sadd",39,130,7],
+  ["Jassim Gaber","Al-Duhail",27,18,1],
+  ["Assim Madibo","Al-Sadd",26,22,2],
+  ["Abdulaziz Hatem","Al-Rayyan",31,78,8],
+  ["Karim Boudiaf","Al-Duhail",33,68,4],
+  ["Mohammed Mannai","Al-Sailiya",24,14,1]
+],
+fwd:[
+  ["Almoez Ali","Al-Duhail",28,74,48],
+  ["Akram Afif","Al-Sadd",28,74,36],
+  ["Tahsin Mohammed","Al-Duhail",31,56,18],
+  ["Edmilson Junior","Al-Wakra",33,52,14],
+  ["Ahmed Al-Janehi","Al-Sadd",26,22,6],
+  ["Ahmed Alaa","Al-Ahli",25,14,3],
+  ["Hassan Al Haydos","Al-Sadd",34,172,56],
+  ["Mohammed Muntari","Al-Duhail",29,52,22],
+  ["Yusuf Abdurisag","Al-Sadd",24,8,1]
+]},
+
+"Saudi Arabia":{coach:"Roberto Martinez",cap:"Mohamed Al Owais",ranking:57,wc_best:"Ronde van 16 (1994)",
+gk:[
+  ["Nawaf Al Aqidi","Al-Ittihad",24,8,0],
+  ["Mohamed Al Owais","Al-Hilal",34,68,0],
+  ["Ahmed Alkassar","Al-Ahli",27,8,0]
+],
+def:[
+  ["Saud Abdulhamid","AS Roma",26,46,4],
+  ["Jehad Thakri","Al-Hilal",28,22,0],
+  ["Abdulelah Al Amri","Al-Hilal",27,24,1],
+  ["Hassan Tambakti","Al-Hilal",25,28,2],
+  ["Ali Lajami","Al-Hilal",31,62,3],
+  ["Hassan Kadesh","Al-Qadsiah",25,14,0],
+  ["Moteb Al Harbi","Al-Shabab",26,18,1],
+  ["Nawaf Boushal","Al-Ittihad",27,22,2],
+  ["Ali Majrashi","Al-Nassr",26,14,0],
+  ["Mohammed Abu Alshamat","Al-Ettifaq",24,8,0]
+],
+mid:[
+  ["Ziyad Al Johani","Al-Qadsiah",24,12,1],
+  ["Nasser Al Dawsari","Al-Hilal",33,88,26],
+  ["Mohamed Kanno","Al-Hilal",29,62,4],
+  ["Abdullah Al Khaibari","Al-Hilal",27,28,2],
+  ["Alaa Al Hejji","Al-Shabab",24,8,0],
+  ["Musab Al Juwayr","Al-Fateh",28,32,4],
+  ["Sultan Mandash","Al-Nassr",27,22,1],
+  ["Ayman Yahya","Al-Qadsiah",24,10,1],
+  ["Khalid Al Ghannam","Al-Ettifaq",26,18,2]
+],
+fwd:[
+  ["Salem Al Dawsari","Al-Hilal",33,84,28],
+  ["Abdullah Al Hamdan","Al-Qadsiah",25,28,8],
+  ["Feras Al Brikan","Al-Qadsiah",24,22,8],
+  ["Saleh Al Shehri","Al-Hilal",29,62,20]
+]},
+
+"Algeria":{coach:"Vladimir Petkovic",cap:"Riyad Mahrez",ranking:42,wc_best:"Ronde van 16 (1982,2014)",
+gk:[
+  ["Oussama Benbot","Angers",30,18,0],
+  ["Melvin Masstil","Auxerre",26,6,0],
+  ["Luca Zidane","Lausanne",26,4,0]
+],
+def:[
+  ["Achraf Abada","Nantes",26,22,1],
+  ["Rayan Ait Nouri","Wolverhampton",24,28,3],
+  ["Zinedine Belaid","Panathinaikos",26,14,0],
+  ["Rafik Belghali","Nottingham Forest",26,8,0],
+  ["Ramy Bensebaini","Borussia Dortmund",30,52,7],
+  ["Samir Chergui","Montpellier",27,8,0],
+  ["Jaouen Hadjam","Strasbourg",24,14,1],
+  ["Aissa Mandi","Villarreal",33,66,3],
+  ["Mohamed Amine Tougai","Olympiacos",24,8,0]
+],
+mid:[
+  ["Houssem Aouar","Olympique Lyon",27,36,6],
+  ["Nabil Bentaleb","Angers",30,52,4],
+  ["Hicham Boudaoui","Nice",26,28,4],
+  ["Fares Chaibi","Eintracht Frankfurt",23,18,4],
+  ["Ibrahim Maza","Hertha Berlin",19,8,3],
+  ["Yassine Titraoui","Nantes",25,12,1],
+  ["Ramiz Zerrouki","Freiburg",26,28,2]
+],
+fwd:[
+  ["Mohamed Amine Amoura","Stuttgart",25,36,14],
+  ["Nadir Benbouali","Nice",26,22,6],
+  ["Adil Boulbina","Kortrijk",25,8,2],
+  ["Fares Ghedjemis","Nice",23,12,3],
+  ["Amine Gouiri","Stade de Reims",24,32,8],
+  ["Riyad Mahrez","Al-Ahli",34,99,35],
+  ["Anis Hadj Moussa","Magdeburg",22,8,2]
+]},
+
+"Austria":{coach:"Ralf Rangnick",cap:"David Alaba",ranking:25,wc_best:"3e Plaats (1954)",
+gk:[
+  ["Patrick Pentz","Bayer Leverkusen",28,12,0],
+  ["Alexander Schlager","Red Bull Salzburg",30,18,0],
+  ["Florian Wiegele","Wolfsberger AC",28,4,0]
+],
+def:[
+  ["David Affengruber","Red Bull Salzburg",24,12,0],
+  ["David Alaba","Real Madrid",33,106,16],
+  ["Kevin Danso","RC Lens",26,36,2],
+  ["Marco Friedl","Werder Bremen",27,32,2],
+  ["Philipp Lienhart","Freiburg",29,26,1],
+  ["Phillipp Mwene","PSV Eindhoven",30,14,0],
+  ["Stefan Posch","Bologna",28,30,2],
+  ["Alexander Prass","Sturm Graz",25,16,1],
+  ["Michael Svoboda","Venezia",24,8,0]
+],
+mid:[
+  ["Christoph Baumgartner","RB Leipzig",25,38,8],
+  ["Carney Chukwuemeka","Chelsea",22,4,0],
+  ["Florian Grillitsch","TSG Hoffenheim",29,52,4],
+  ["Konrad Laimer","Bayern Munich",27,52,8],
+  ["Marcel Sabitzer","Borussia Dortmund",31,78,14],
+  ["Xaver Schlager","RB Leipzig",27,42,3],
+  ["Romano Schmid","Werder Bremen",25,26,4],
+  ["Alessandro Schopf","Sturm Graz",32,32,4],
+  ["Nicolas Seiwald","RB Leipzig",24,28,2],
+  ["Paul Wanner","TSG Hoffenheim",19,8,1],
+  ["Patrick Wimmer","VfL Wolfsburg",24,16,2]
+],
+fwd:[
+  ["Marko Arnautovic","Bologna",36,118,38],
+  ["Michael Gregoritsch","SC Freiburg",30,58,18],
+  ["Sasa Kalajdzic","Wolverhampton",28,42,16]
+]},
+
+"Ivory Coast":{coach:"Emerse Fae",cap:"Franck Kessie",ranking:30,wc_best:"Groepsfase (2006,2010,2014,2022)",
+gk:[
+  ["Yahia Fofana","Leicester City",31,36,0],
+  ["Mohamed Kone","Wydad AC",25,8,0],
+  ["Alban Lafont","Nantes",26,12,0]
+],
+def:[
+  ["Emmanuel Agbadou","Wolverhampton",27,26,2],
+  ["Christopher Operi","Auxerre",26,8,0],
+  ["Ousmane Diomande","Sporting CP",22,22,1],
+  ["Guela Doue","Rennes",20,8,0],
+  ["Ghislain Konan","Reims",29,34,2],
+  ["Odilon Kossounou","Bayer Leverkusen",24,24,0],
+  ["Wilfried Singo","AS Monaco",24,30,4],
+  ["Evan Ndicka","AS Roma",25,24,1]
+],
+mid:[
+  ["Seko Fofana","Al-Qadsiah",29,58,8],
+  ["Parfait Guiagon","Villarreal",23,8,0],
+  ["Christ Inao Oulai","Strasbourg",23,4,0],
+  ["Franck Kessie","Al-Ahli",28,76,18],
+  ["Ibrahim Sangare","Nottingham Forest",27,40,5],
+  ["Jean Michael Seri","Hull City",32,72,12]
+],
+fwd:[
+  ["Simon Adingra","Brighton",23,28,10],
+  ["Ange-Yoan Bonny","Parma",21,14,3],
+  ["Amad Diallo","Manchester United",22,16,6],
+  ["Oumar Diakite","Auxerre",22,4,1],
+  ["Yan Diomande","Sporting CP",22,8,2],
+  ["Evann Guessand","Nice",24,12,3],
+  ["Nicolas Pepe","Nice",29,70,27],
+  ["Bazoumana Toure","Burkina Faso",24,4,0],
+  ["Elye Wahi","Marseille",22,14,4]
+]},
+
+"Cape Verde":{coach:"Bubista",cap:"Garry Rodrigues",ranking:86,wc_best:"WK 2026 (debuut)",
+gk:[["CJ dos Santos","Estoril",26,14,0],["Marcio Rosa","CD Santa Clara",28,8,0],["Vozinha","SC Farense",31,22,0]],
+def:[["Sidny Cabral","Vitoria Guimaraes",24,8,0],["Diney Borges","Arouca",28,12,0],["Logan Costa","Toulouse",26,28,3],["Roberto Lopes","Shamrock Rovers",30,34,2],["Steven Moreira","Almeria",28,24,2],["Wagner Pina","Gil Vicente",25,8,0],["Kelvin Pires","Gent",25,10,0],["Joao Paulo Fernandes","Portimonense",26,8,0],["Ianique Tavares","Partizan",28,22,1]],
+mid:[["Telmo Arcanjo","Boavista",27,16,2],["Deroy Duarte","Utrecht",23,8,1],["Laros Duarte","RKC Waalwijk",25,14,2],["Jamiro Monteiro","Atlanta United",31,52,8],["Kevin Pina","Arouca",26,12,1],["Yannick Semedo","Nacional",24,6,0]],
+fwd:[["Gilson Benchimol","Vitoria SC",26,8,2],["Jovane Cabral","Sporting CP",27,28,6],["Dailon Livramento","Nantes",24,10,2],["Ryan Mendes","Ittihad Kalba",32,62,16],["Nuno da Costa","Strasbourg",34,72,12],["Garry Rodrigues","Al-Ahli Dubai",34,74,24],["Willy Semedo","Nacional",24,4,0],["Helio Varela","Belenenses",25,8,1]]},
+
+"Curacao":{coach:"Fred Rutten",cap:"Leandro Bacuna",ranking:78,wc_best:"WK 2026 (debuut)",
+gk:[["Tyrick Bodack","SV Darmstadt 98",25,4,0],["Trevor Doornbusch","NEC Nijmegen",28,8,0],["Eloy Room","Columbus Crew",35,28,0]],
+def:[["Riechedly Bazoer","Vitesse",28,38,2],["Joshua Brenet","FC Twente",30,18,1],["Roshon van Eijma","Slavia Prague",27,12,0],["Sherel Floranus","Almere City",28,14,1],["Deveron Fonville","NEC Nijmegen",26,8,0],["Jurien Gaari","Almere City",26,8,0],["Armando Obispo","PSV Eindhoven",25,14,0],["Shurandy Sambo","AZ Alkmaar",25,8,0]],
+mid:[["Juninho Bacuna","Middlesbrough",29,38,6],["Leandro Bacuna","Cardiff City",33,68,12],["Livano Comenencia","Excelsior",24,12,1],["Kevin Felida","Roda JC",26,8,0],["Ar'jany Martha","Groningen",26,10,1],["Tyrese Noslin","Vitesse",28,16,2],["Godfried Roemeratoe","Cambuur",25,8,0]],
+fwd:[["Jeremy Antonisse","Almere City",22,4,0],["Tahith Chong","Luton Town",25,28,4],["Kenji Gorre","NEC Nijmegen",30,24,4],["Sontje Hansen","FC Emmen",24,8,1],["Gervane Kastaneer","Deportivo La Coruna",29,22,4],["Brandley Kuwas","Heracles",32,36,8],["Jurgen Locadia","Maccabi Tel Aviv",32,40,8],["Jearl Margaritha","Jong PSV",21,4,0]]},
+
+"Czechia":{coach:"Miroslav Koubek",cap:"Tomas Soucek",ranking:36,wc_best:"Finalist (1934,1962 als Tsjechoslowakije)",
+gk:[["Lukas Hornicek","Sparta Prague",26,4,0],["Matej Kovar","PSV Eindhoven",26,22,0],["Jindrich Stanek","Sparta Prague",28,22,0]],
+def:[["Vladimir Coufal","West Ham United",32,52,2],["David Doudera","Sparta Prague",24,8,0],["Tomas Holes","Slavia Prague",30,40,2],["Robin Hranac","Sparta Prague",26,22,1],["Stepan Chaloupek","Jablonec",28,4,0],["David Jurasek","Benfica",24,14,1],["Ladislav Krejci","Bologna",26,18,1],["Jaroslav Zeleny","Sparta Prague",27,8,0],["David Zima","Torino",24,14,0]],
+mid:[["Lukas Cerv","Sparta Prague",27,8,0],["Vladimir Darida","Hertha Berlin",34,68,7],["Lukas Provod","Slavia Prague",28,28,4],["Michal Sadilek","PSV Eindhoven",26,24,2],["Hugo Sochurek","Sparta Prague",24,4,0],["Alexandr Sojka","Sparta Prague",25,4,0],["Tomas Soucek","West Ham United",29,76,18],["Pavel Sulc","Vitesse",25,8,2],["Denis Visinsky","Slavia Prague",24,4,0]],
+fwd:[["Adam Hlozek","Leverkusen",23,28,7],["Tomas Chory","Sparta Prague",28,14,4],["Mojmir Chytil","Freiburg",25,18,5],["Jan Kuchta","Slavia Prague",27,24,8],["Patrik Schick","Bayer Leverkusen",30,56,25]]},
+
+"DR Congo":{coach:"Sebastien Desabre",cap:"Chancel Mbemba",ranking:54,wc_best:"Kwartfinale (1974 als Zaire)",
+gk:[["Matthieu Epolo","Notts County",23,8,0],["Timothy Fayulu","TP Mazembe",34,22,0],["Lionel Mpasi","Beveren",26,6,0]],
+def:[["Dylan Batubinsika","Strasbourg",27,12,0],["Gedeon Kalulu","Juventus",26,8,0],["Steve Kapuadi","Paris FC",27,14,0],["Joris Kayembe","Genk",30,22,1],["Arthur Masuaku","Besiktas",30,44,4],["Chancel Mbemba","Marseille",30,58,6],["Axel Tuanzebe","Stoke City",28,14,0],["Aaron Wan-Bissaka","West Ham United",27,4,0]],
+mid:[["Brian Cipenga","Eupen",24,4,0],["Meshack Elia","FC Dallas",27,14,2],["Gael Kakuta","Amiens",33,52,8],["Edo Kayembe","Watford",28,18,1],["Nathanael Mbuku","Augsburg",24,18,4],["Samuel Moutoussamy","Nantes",28,28,2],["Ngal'ayel Mukau","Lecce",22,8,1],["Charles Pickel","Levante",30,28,2],["Noah Sadiki","Anderlecht",22,10,1],["Aaron Tshibola","Burton Albion",30,12,0]],
+fwd:[["Cedric Bakambu","Marseille",34,72,22],["Simon Banza","Braga",28,22,8],["Fiston Mayele","Pyramids",30,18,6],["Yoane Wissa","Brentford",28,22,8],["Theo Bongonda","RC Genk",30,28,6]]},
+
+"Egypt":{coach:"Hossam Hassan",cap:"Mohamed Salah",ranking:33,wc_best:"Groepsfase (1934,1990,2018)",gk:[["Mohamed El Shenawy","Al-Ahly",36,64,0],["Mostafa Shobeir","Al-Ahly",26,12,0],["El Mahdy Soliman","Zamalek",27,6,0],["Mohamed Alaa","Al-Zamalek",28,4,0]],def:[["Mohamed Abdelmonem","Galatasaray",26,32,3],["Mohamed Hany","Al-Ahly",27,38,2],["Yasser Ibrahim","Al-Ahly",28,30,3],["Hossam Abdelmaguid","Al-Ahly",31,34,3],["Ahmed Fattouh","Zamalek",26,18,1],["Tarek Alaa","Ceramica",27,14,1],["Rami Rabia","Al-Ahly",30,22,0],["Karim Hafez","Ceramica",26,10,0]],mid:[["Marwan Attia","Smouha",25,8,0],["Ahmed Sayed Zizo","Al-Ahly",31,68,14],["Mahmoud Hassan Trezeguet","Trabzonspor",30,82,17],["Emam Ashour","Zamalek",27,28,4],["Mostafa Abdel Raouf","Zamalek",25,12,1],["Mohannad Lasheen","Al-Ahly",26,14,2],["Haitham Hassan","Pyramids",28,16,2],["Mahmoud Saber","Zamalek",28,18,3],["Ibrahim Adel","Al-Ahly",21,14,2],["Nabil Emad","Ceramica",22,8,1],["Hamdi Fathi","Al-Ahly",30,48,4]],fwd:[["Mohamed Salah","Liverpool",33,105,58],["Omar Marmoush","Manchester City",26,36,18],["Hamza Abdel Karim","Zamalek",24,8,2]]},
+
+"Greece":{coach:"Georgios Donis",cap:"Vangelis Pavlidis",ranking:47,wc_best:"Groepsfase (1994)",gk:[["Odysseas Vlachodimos","Nottingham Forest",30,36,0],["Stefanos Kapino","Panetolikos",32,18,0],["Walter","Panathinaikos",28,8,0]],def:[["Konstantinos Mavropanos","West Ham United",27,36,1],["Sokratis","Panathinaikos",36,102,10],["Christos Zafeiris","Red Star Belgrade",28,18,1],["Petros Mantalos","AEK Athens",32,52,8],["Giorgos Vagiannidis","Panathinaikos",22,12,1],["Alexandros Tsiolis","PAOK",24,8,0]],mid:[["Tasos Bakasetas","Trabzonspor",31,64,16],["Giannis Fetfatzidis","Al-Jaish",33,36,4],["Christos Tzolis","Club Brugge",24,26,5],["Lazaros Rota","Panathinaikos",28,38,4],["Manolis Siopis","Cardiff City",30,44,4],["Pelkas","Fenerbahce",30,42,8],["Giorgos Masouras","Olympiacos",31,34,4]],fwd:[["Anastasios Douvikas","Utrecht",25,18,4],["Fotis Ioannidis","Panathinaikos",25,22,8],["Giannis Konstantelias","PAOK",25,18,4],["Vangelis Pavlidis","Benfica",27,32,14],["Christos Almpanis","Panathinaikos",24,8,2]]},
+
+"Haiti":{coach:"Sebastien Migne",cap:"Jean-Ricner Bellegarde",ranking:80,wc_best:"WK 2026 (debuut)",gk:[["Josue Duverger","Violette AC",25,4,0],["Alexandre Pierre","AS Capoise",28,6,0],["Johny Placide","Caen",36,52,0]],def:[["Ricardo Ade","Racing Club Strasbourg",24,6,0],["Carlens Arcus","Hammarby IF",28,12,0],["Hannes Delcroix","RSC Anderlecht",25,14,0],["Jean-Kevin Duverne","Al Feiha",25,10,0],["Martin Experience","Chamois Niortais",27,8,0],["Duke Lacroix","Stade Lavallois",24,6,0],["Wilguens Paugain","Villarreal B",23,4,0],["Keeto Thermoncy","Colorado Rapids",24,4,0]],mid:[["Carl Fred Sainte","Al Feiha",25,8,0],["Jean-Ricner Bellegarde","Strasbourg",26,22,3],["Leverton Pierre","Caen",26,8,0],["Danley Jean Jacques","CF Montreal",24,8,1],["Woodensky Pierre","FC Lorient",23,4,0],["Dominique Simon","Stade de Reims",24,4,0]],fwd:[["Josue Casimir","AS Capoise",25,4,1],["Louicius Deedson","Ottawa Atlético",25,4,0],["Derrick Etienne Jr","Columbus Crew",29,36,8],["Yassin Fortune","Rodez",22,4,0],["Wilson Isidor","Nantes",26,14,3],["Lenny Joseph","AS Capoise",24,4,0],["Duckens Nazon","Clermont",31,22,6],["Frantzdy Pierrot","Colorado Rapids",30,24,6],["Ruben Providence","Los Angeles FC",25,8,1]]},
+
+"Iraq":{coach:"Graham Arnold",cap:"Ali Al Hamadi",ranking:63,wc_best:"Groepsfase (1986)",gk:[["Fahad Talib","Al-Shorta",28,18,0],["Jalal Hassan","Al-Zawraa",30,14,0],["Ahmed Basil","Al-Quwa Al-Jawiya",26,8,0]],def:[["Hussein Ali","Al-Shorta",27,22,1],["Manaf Younis","Al-Quwa Al-Jawiya",28,18,0],["Zaid Tahseen","Al-Zawraa",24,8,0],["Rebin Sulaka","Neftchi Baku",26,14,0],["Akam Hashem","Al-Quwa Al-Jawiya",25,8,0],["Merchas Doski","Hacken",29,28,2],["Ahmed Yahya","Al-Zawraa",25,8,0],["Zaid Ismail","Al-Shorta",28,14,0],["Frans Putros","Shabab Al-Ahli",26,10,0],["Mustafa Saadoon","Al-Quwa Al-Jawiya",24,6,0]],mid:[["Amir Al Ammari","Al-Zawraa",28,22,2],["Kevin Yakob","Djurgarden",26,18,3],["Zidane Iqbal","FC Utrecht",22,18,3],["Aimar Sher","Duhok",23,8,1],["Ibrahim Bayesh","Al-Shorta",25,12,0],["Ahmed Qasim","Al-Zawraa",26,14,1],["Youssef Amyn","Al-Quwa Al-Jawiya",24,8,0],["Marko Farji","Al-Quwa Al-Jawiya",25,8,1]],fwd:[["Ali Jassim","Al-Zawraa",26,22,8],["Ali Al Hamadi","Aston Villa",24,28,8],["Ali Yousef","Al-Zawraa",25,12,2],["Aymen Hussein","Al-Shorta",28,36,12],["Mohanad Ali","Al-Quwa Al-Jawiya",24,8,2]]},
+
+"Jordan":{coach:"Mohamed Ouahbi",cap:"Mousa Al Tamari",ranking:69,wc_best:"WK 2026 (debuut)",gk:[["Yazid Abulaila","Al-Faisaly",26,12,0],["Noor Bani Attiah","Al-Ahli",28,8,0],["Abdallah Al Fakhouri","Al-Jazeera",30,14,0]],def:[["Mohammad Abu Hashish","Al-Faisaly",28,22,1],["Abdullah Nasib","Al-Wihdat",24,8,0],["Hussam Abu Dhahab","Al-Qadsiah",25,12,0],["Yazan Al Arab","Al-Faisaly",27,18,0],["Mohammad Abu Alnadi","Al-Faisaly",28,22,1],["Salem Obaid","Al-Ahli Doha",26,14,0],["Saed Al Rosan","Al-Faisaly",30,36,3],["Ehsan Haddad","Al-Faisaly",32,42,2],["Anas Badawi","Al-Wihdat",26,14,0]],mid:[["Amer Jamous","Al-Faisaly",28,22,2],["Noor Al Rawabdeh","Al-Faisaly",26,18,1],["Rajaei Ayed","Al-Wihdat",28,24,2],["Ibrahim Sadeh","Al-Faisaly",26,14,0],["Mohannad Abu Taha","Al-Faisaly",27,18,1],["Nizar Al Rashdan","Al-Faisaly",30,32,4],["Mohammad Al Dawoud","Al-Faisaly",28,22,2],["Mahmoud Mardahi","Al-Ahli",24,8,0]],fwd:[["Mohammad Abu Zraiq","Al-Faisaly",26,18,4],["Ali Olwan","Al-Wihdat",26,14,3],["Mousa Al Tamari","Montpellier",27,48,14],["Odeh Fakhoury","Al-Faisaly",26,8,1],["Ibrahim Sabra","Al-Faisaly",24,8,1],["Ali Azaizeh","Al-Wihdat",25,12,2]]},
+
+"New Zealand":{coach:"Darren Bazeley",cap:"Chris Wood",ranking:98,wc_best:"Groepsfase (1982,2010)",gk:[["Max Crocombe","Slovenj Gradec",30,18,0],["Alex Paulsen","Hammarby",28,4,0],["Michael Woud","Schalke 04",28,12,0]],def:[["Tyler Bindon","Westerlo",21,8,0],["Michael Boxall","Minnesota United",35,62,4],["Liberato Cacace","Empoli",25,28,2],["Francis de Vries","Huddersfield",24,4,0],["Callan Elliot","Wellington Phoenix",22,6,0],["Tim Payne","Wellington Phoenix",23,4,0],["Nando Pijnaker","Wellington Phoenix",26,22,0],["Tommy Smith","Stoke City",34,58,2],["Finn Surman","Wellington Phoenix",16,4,0]],mid:[["Lachlan Bayliss","Wellington Phoenix",23,4,0],["Joe Bell","Motherwell",27,18,1],["Matt Garbett","Barnsley",26,14,1],["Eli Just","Wellington Phoenix",22,4,0],["Callum McCowatt","Plymouth Argyle",26,18,3],["Ben Old","Go Ahead Eagles",25,12,2],["Alex Rufer","Lyn",26,16,2],["Marko Stamenic","FC Copenhagen",23,12,1],["Sarpreet Singh","Munich 1860",26,22,4],["Ryan Thomas","NEC Nijmegen",32,34,4]],fwd:[["Kosta Barbarouses","Seattle Sounders",35,72,14],["Jesse Randall","Wellington Phoenix",24,4,1],["Ben Waine","Wellington Phoenix",26,16,4],["Chris Wood","Nottingham Forest",34,116,32]]},
+
+"Panama":{coach:"Thomas Christiansen",cap:"Anibal Godoy",ranking:71,wc_best:"Groepsfase (2018,2022,2026)",gk:[["Orlando Mosquera","Deportivo Cali",29,22,0],["Luis Mejia","Independiente",28,18,0],["Cesar Samudio","Tauro FC",30,14,0]],def:[["Cesar Blackman","Platense",28,28,1],["Jorge Gutierrez","San Jose Earthquakes",34,68,3],["Amir Murillo","Marseille",29,52,3],["Fidel Escobar","Columbus Crew",30,52,2],["Andres Andrade","CF Montreal",32,68,4],["Edgardo Farina","Tauro FC",28,14,0],["Jose Cordoba","Club Atletico San Miguel",26,8,0],["Eric Davis","Columbus Crew",34,74,8],["Jiovany Ramos","Tauro FC",25,8,0],["Roderick Miller","Tauro FC",28,28,1]],mid:[["Anibal Godoy","Nashville SC",36,128,8],["Adalberto Carrasquilla","Fiorentina",28,48,8],["Carlos Harvey","Nashville SC",34,82,12],["Cristian Martinez","Estudiantes LP",26,18,2],["Jose Luis Rodriguez","Columbus Crew",28,42,4],["Cesar Yanis","Club Atletico",25,14,2],["Yoel Barcenas","Vitoria Guimaraes",29,42,8],["Alberto Quintero","Plaza Amador",36,82,14],["Azarias Londono","Tauro FC",24,4,0]],fwd:[["Ismael Diaz","Stade de Reims",24,18,4],["Cecilio Waterman","Colorado Rapids",34,68,22],["Jose Fajardo","Portland Timbers",30,52,12],["Tomas Rodriguez","Tauro FC",26,8,1]]},
+
+"Portugal2":{}, // skip duplicate
+
+"South Africa":{coach:"Hugo Broos",cap:"Ronwen Williams",ranking:62,wc_best:"Ronde van 16 (2010)",gk:[["Ronwen Williams","Mamelodi Sundowns",32,58,0],["Ricardo Goss","Kaizer Chiefs",33,12,0],["Sipho Chaine","Orlando Pirates",28,14,0]],def:[["Aubrey Modiba","Mamelodi Sundowns",28,28,1],["Khuliso Mudau","Mamelodi Sundowns",27,32,1],["Khulumani Ndamane","Orlando Pirates",26,8,0],["Kamogelo Sebelebele","Mamelodi Sundowns",24,4,0],["Nkosinathi Sibisi","Orlando Pirates",28,28,2],["Bradley Cross","Cape Town City",28,14,0],["Samukele Kabini","Mamelodi Sundowns",25,8,0],["Olwethu Makhanya","Cape Town City",24,4,0],["Thabang Matuludi","Mamelodi Sundowns",26,8,0],["Mbekezeli Mbokazi","AmaZulu",24,4,0],["Ime Okon","Kaizer Chiefs",25,4,0]],mid:[["Oswin Appollis","Mamelodi Sundowns",23,22,4],["Thalente Mbatha","Orlando Pirates",24,16,2],["Relebohile Mofokeng","Orlando Pirates",21,18,4],["Jayden Adams","Mamelodi Sundowns",24,18,2],["Teboho Mokoena","Mamelodi Sundowns",28,52,8],["Themba Zwane","Mamelodi Sundowns",34,82,22],["Sphephelo Sithole","Tondela",22,4,0]],fwd:[["Evidence Makgopa","Orlando Pirates",26,28,8],["Tshepang Moremi","Orlando Pirates",22,8,1],["Lyle Foster","Burnley",25,24,6],["Thapelo Maseko","AEL Limassol",25,12,2],["Iqraam Rayners","Mamelodi Sundowns",28,28,12]]},
+
+"Senegal2":{}, // skip
+
+"Sweden":{coach:"Graham Potter",cap:"Alexander Isak",ranking:29,wc_best:"3e Plaats (1950,1994)",gk:[["Viktor Johansson","Stoke City",27,4,0],["Kristoffer Nordfeldt","AIK",36,10,0],["Jacob Widell Zetterström","Derby County",24,4,0]],def:[["Hjalmar Ekdal","Burnley",25,12,0],["Gabriel Gudmundsson","Leeds United",27,18,1],["Isak Hien","Atalanta",26,22,1],["Emil Holm","Juventus",25,18,2],["Gustaf Lagerbielke","SC Braga",26,14,0],["Victor Lindelof","Aston Villa",30,66,4],["Eric Smith","St Pauli",28,28,1],["Carl Starfelt","Celta de Vigo",30,30,0],["Elliot Stroud","Malmo",22,4,0],["Daniel Svensson","Borussia Dortmund",23,8,0]],mid:[["Jesper Kalstrom","Udinese",28,14,1],["Yasin Ayari","Brighton",22,18,2],["Mattias Svanberg","Wolfsburg",28,46,5],["Lucas Bergvall","Tottenham Hotspur",19,14,2],["Besfort Zeneli","Saint-Gilloise",30,34,6]],fwd:[["Taha Ali","Malmo",22,4,1],["Alexander Bernhardsson","Holstein Kiel",26,14,3],["Anthony Elanga","Nottingham Forest",23,22,4],["Viktor Gyokeres","Arsenal",27,36,22],["Alexander Isak","Liverpool",26,46,22],["Gustaf Nilsson","Club Brugge",27,14,4],["Benjamin Nygren","Celtic",24,8,2],["Ken Sema","Pafos",31,46,6]]},
+
+"Tunisia":{coach:"Sabri Lamouchi",cap:"Youssef Msakni",ranking:34,wc_best:"Ronde van 16 (1978)",gk:[["Aymen Dahmen","CS Sfaxien",29,22,0],["Bechir Ben Said","US Monastir",28,4,0],["Farouk Ben Mustapha","Al-Jazira",35,28,0]],def:[["Dylan Bronn","Salernitana",29,32,1],["Montassar Talbi","Lorient",26,28,2],["Nader Ghandri","Al-Ahly",28,36,2],["Ali Abdi","Lorient",29,38,4],["Wajdi Kechrida","Atletico Madrid",30,52,4],["Bilel Ifa","Toulouse",29,18,0],["Mohamed Drager","Portimonense",28,44,2]],mid:[["Anis Ben Slimane","Bordeaux",24,22,3],["Ellyes Skhiri","Eintracht Frankfurt",29,62,8],["Hamza Rafia","Lausanne",25,18,2],["Lamine Gueye","Sion",22,4,0],["Ghailane Chaalali","Espérance Sportive",29,52,8],["Hannibal Mejbri","Birmingham City",22,22,3]],fwd:[["Youssef Msakni","Al-Arabi",34,102,25],["Issam Jebali","Genk",30,44,14],["Seifeddine Jaziri","Nantes",34,62,16],["Naim Sliti","Dijon",31,62,10],["Wahbi Khazri","Montpellier",33,84,26]]},
+
+"Uzbekistan":{coach:"Fabio Cannavaro",cap:"Eldor Shomurodov",ranking:74,wc_best:"WK 2026 (debuut)",gk:[["Utkir Yusupov","Pakhtakor",28,22,0],["Eldor Shodiyev","Pakhtakor",26,8,0],["Jasur Jaloliddinov","Navbahor",24,4,0]],def:[["Jasur Yakhshiboyev","FC Metallurg",26,14,0],["Khusan Abdukholiqov","Pakhtakor",24,8,0],["Sherzod Nasrullayev","Pakhtakor",28,22,0],["Bunyod Sidiqov","Pakhtakor",26,14,0],["Shamsiddin Latipov","Pakhtakor",25,12,0],["Mirzo Yunusov","Pakhtakor",24,8,0],["Bobur Abdixoliqov","Pakhtakor",22,4,0]],mid:[["Jaloliddin Masharipov","Pakhtakor",32,72,12],["Otabek Shukurov","Pakhtakor",27,28,2],["Jamshid Iskanderov","Pakhtakor",26,18,2],["Ruslan Tursunov","Pakhtakor",28,22,1],["Azizbek Turgunboev","Pakhtakor",25,14,0],["Eldor Shomurodov","Roma",28,62,16],["Farrux Tashmatov","Pakhtakor",24,12,1]],fwd:[["Dostonbek Khamdamov","Pakhtakor",24,12,3],["Abbosbek Fayzullaev","Pakhtakor",24,28,8],["Shamsiddin Urunov","Pakhtakor",23,8,1],["Shokir Shodiyev","Pakhtakor",22,4,0],["Bobur Mirzayev","Pakhtakor",23,4,0]]}
+};
+
+// Groups / Schedule / Bracket - same as before
+const GR={
+"A":{t:["Mexico","South Korea","South Africa","Czechia"],m:[
+{h:"Mexico",a:"South Africa",hs:null,as:null,d:"do 11 jun",t:"21:00",v:"Mexico City"},
+{h:"South Korea",a:"Czechia",hs:null,as:null,d:"vr 12 jun",t:"04:00",v:"Guadalajara"},
+{h:"South Africa",a:"South Korea",hs:null,as:null,d:"ma 15 jun",t:"02:00",v:"Dallas"},
+{h:"Mexico",a:"Czechia",hs:null,as:null,d:"ma 15 jun",t:"21:00",v:"Los Angeles"},
+{h:"South Africa",a:"Czechia",hs:null,as:null,d:"vr 19 jun",t:"03:00",v:"Kansas City"},
+{h:"Mexico",a:"South Korea",hs:null,as:null,d:"vr 19 jun",t:"21:00",v:"Mexico City"}]},
+"B":{t:["Canada","Switzerland","Qatar","Bosnia"],m:[
+{h:"Canada",a:"Bosnia",hs:null,as:null,d:"vr 12 jun",t:"21:00",v:"Toronto"},
+{h:"Qatar",a:"Switzerland",hs:null,as:null,d:"za 13 jun",t:"21:00",v:"San Francisco"},
+{h:"Canada",a:"Switzerland",hs:null,as:null,d:"wo 17 jun",t:"21:00",v:"Vancouver"},
+{h:"Qatar",a:"Bosnia",hs:null,as:null,d:"wo 17 jun",t:"00:00",v:"Dallas"},
+{h:"Canada",a:"Qatar",hs:null,as:null,d:"zo 21 jun",t:"00:00",v:"Toronto"},
+{h:"Switzerland",a:"Bosnia",hs:null,as:null,d:"zo 21 jun",t:"21:00",v:"New York"}]},
+"C":{t:["Brazil","Morocco","Scotland","Haiti"],m:[
+{h:"Brazil",a:"Morocco",hs:null,as:null,d:"za 13 jun",t:"00:00",v:"New York"},
+{h:"Haiti",a:"Scotland",hs:null,as:null,d:"zo 14 jun",t:"03:00",v:"Boston"},
+{h:"Brazil",a:"Scotland",hs:null,as:null,d:"wo 17 jun",t:"00:00",v:"Dallas"},
+{h:"Morocco",a:"Haiti",hs:null,as:null,d:"wo 17 jun",t:"21:00",v:"Houston"},
+{h:"Brazil",a:"Haiti",hs:null,as:null,d:"zo 21 jun",t:"02:30",v:"Atlanta"},
+{h:"Morocco",a:"Scotland",hs:null,as:null,d:"zo 21 jun",t:"00:00",v:"Philadelphia"}]},
+"D":{t:["USA","Australia","Paraguay","Turkey"],m:[
+{h:"USA",a:"Paraguay",hs:null,as:null,d:"vr 12 jun",t:"03:00",v:"Los Angeles"},
+{h:"Australia",a:"Turkey",hs:null,as:null,d:"zo 14 jun",t:"06:00",v:"Vancouver"},
+{h:"USA",a:"Turkey",hs:null,as:null,d:"za 20 jun",t:"21:00",v:"Seattle"},
+{h:"Australia",a:"Paraguay",hs:null,as:null,d:"zo 21 jun",t:"05:00",v:"New York"},
+{h:"USA",a:"Australia",hs:null,as:null,d:"za 27 jun",t:"04:00",v:"Los Angeles"},
+{h:"Paraguay",a:"Turkey",hs:null,as:null,d:"za 27 jun",t:"04:00",v:"Santa Clara"}]},
+"E":{t:["Germany","Ecuador","Ivory Coast","Curacao"],m:[
+{h:"Germany",a:"Ecuador",hs:null,as:null,d:"zo 14 jun",t:"19:00",v:"Houston"},
+{h:"Ivory Coast",a:"Curacao",hs:null,as:null,d:"ma 15 jun",t:"01:00",v:"Philadelphia"},
+{h:"Germany",a:"Curacao",hs:null,as:null,d:"zo 21 jun",t:"22:00",v:"Toronto"},
+{h:"Ecuador",a:"Ivory Coast",hs:null,as:null,d:"za 20 jun",t:"00:00",v:"Dallas"},
+{h:"Germany",a:"Ivory Coast",hs:null,as:null,d:"vr 26 jun",t:"22:00",v:"New York"},
+{h:"Ecuador",a:"Curacao",hs:null,as:null,d:"vr 26 jun",t:"02:00",v:"Miami"}]},
+"F":{t:["Netherlands","Japan","Tunisia","Sweden"],m:[
+{h:"Netherlands",a:"Japan",hs:null,as:null,d:"zo 14 jun",t:"22:00",v:"Arlington"},
+{h:"Tunisia",a:"Sweden",hs:null,as:null,d:"ma 15 jun",t:"04:00",v:"Guadalajara"},
+{h:"Netherlands",a:"Sweden",hs:null,as:null,d:"zo 21 jun",t:"19:00",v:"Houston"},
+{h:"Japan",a:"Tunisia",hs:null,as:null,d:"zo 21 jun",t:"06:00",v:"Guadalajara"},
+{h:"Netherlands",a:"Tunisia",hs:null,as:null,d:"za 27 jun",t:"01:00",v:"Kansas City"},
+{h:"Japan",a:"Sweden",hs:null,as:null,d:"za 27 jun",t:"01:00",v:"Arlington"}]},
+"G":{t:["Belgium","Iran","Egypt","New Zealand"],m:[
+{h:"Belgium",a:"Egypt",hs:null,as:null,d:"ma 15 jun",t:"21:00",v:"Seattle"},
+{h:"Iran",a:"New Zealand",hs:null,as:null,d:"di 16 jun",t:"03:00",v:"Los Angeles"},
+{h:"Belgium",a:"Iran",hs:null,as:null,d:"zo 21 jun",t:"21:00",v:"Los Angeles"},
+{h:"Egypt",a:"New Zealand",hs:null,as:null,d:"ma 22 jun",t:"03:00",v:"Vancouver"},
+{h:"Belgium",a:"New Zealand",hs:null,as:null,d:"za 27 jun",t:"05:00",v:"Vancouver"},
+{h:"Iran",a:"Egypt",hs:null,as:null,d:"za 27 jun",t:"05:00",v:"Seattle"}]},
+"H":{t:["Spain","Cape Verde","Saudi Arabia","Uruguay"],m:[
+{h:"Spain",a:"Cape Verde",hs:null,as:null,d:"ma 15 jun",t:"18:00",v:"Atlanta"},
+{h:"Saudi Arabia",a:"Uruguay",hs:null,as:null,d:"ma 15 jun",t:"00:00",v:"Miami"},
+{h:"Spain",a:"Uruguay",hs:null,as:null,d:"do 18 jun",t:"03:00",v:"Guadalajara"},
+{h:"Saudi Arabia",a:"Cape Verde",hs:null,as:null,d:"zo 21 jun",t:"18:00",v:"Atlanta"},
+{h:"Spain",a:"Saudi Arabia",hs:null,as:null,d:"zo 28 jun",t:"02:00",v:"New York"},
+{h:"Uruguay",a:"Cape Verde",hs:null,as:null,d:"zo 28 jun",t:"02:00",v:"Houston"}]},
+"I":{t:["France","Senegal","Norway","Iraq"],m:[
+{h:"France",a:"Senegal",hs:null,as:null,d:"di 16 jun",t:"21:00",v:"New York"},
+{h:"Norway",a:"Iraq",hs:null,as:null,d:"wo 17 jun",t:"00:00",v:"Boston"},
+{h:"France",a:"Norway",hs:null,as:null,d:"za 20 jun",t:"22:00",v:"Boston"},
+{h:"Senegal",a:"Iraq",hs:null,as:null,d:"zo 21 jun",t:"21:00",v:"Philadelphia"},
+{h:"France",a:"Iraq",hs:null,as:null,d:"do 25 jun",t:"23:00",v:"Philadelphia"},
+{h:"Senegal",a:"Norway",hs:null,as:null,d:"do 25 jun",t:"02:00",v:"Toronto"}]},
+"J":{t:["Argentina","Austria","Colombia","Ghana"],m:[
+{h:"Argentina",a:"Colombia",hs:null,as:null,d:"wo 17 jun",t:"03:00",v:"Kansas City"},
+{h:"Austria",a:"Ghana",hs:null,as:null,d:"wo 17 jun",t:"06:00",v:"Miami"},
+{h:"Argentina",a:"Ghana",hs:null,as:null,d:"zo 21 jun",t:"20:00",v:"Dallas"},
+{h:"Colombia",a:"Austria",hs:null,as:null,d:"zo 21 jun",t:"21:00",v:"Dallas"},
+{h:"Argentina",a:"Austria",hs:null,as:null,d:"wo 24 jun",t:"19:00",v:"Guadalajara"},
+{h:"Colombia",a:"Ghana",hs:null,as:null,d:"wo 24 jun",t:"05:00",v:"Mexico City"}]},
+"K":{t:["Portugal","Colombia","Uzbekistan","DR Congo"],m:[
+{h:"Portugal",a:"Colombia",hs:null,as:null,d:"wo 17 jun",t:"19:00",v:"Kansas City"},
+{h:"DR Congo",a:"Uzbekistan",hs:null,as:null,d:"wo 17 jun",t:"19:00",v:"Atlanta"},
+{h:"Portugal",a:"DR Congo",hs:null,as:null,d:"zo 21 jun",t:"21:00",v:"Houston"},
+{h:"Colombia",a:"Uzbekistan",hs:null,as:null,d:"zo 21 jun",t:"04:00",v:"Mexico City"},
+{h:"Portugal",a:"Uzbekistan",hs:null,as:null,d:"wo 24 jun",t:"19:00",v:"Seattle"},
+{h:"Colombia",a:"DR Congo",hs:null,as:null,d:"wo 24 jun",t:"04:00",v:"Dallas"}]},
+"L":{t:["England","Croatia","Ghana","Panama"],m:[
+{h:"England",a:"Croatia",hs:null,as:null,d:"do 18 jun",t:"22:00",v:"Arlington"},
+{h:"Ghana",a:"Panama",hs:null,as:null,d:"vr 19 jun",t:"01:00",v:"Toronto"},
+{h:"England",a:"Ghana",hs:null,as:null,d:"di 23 jun",t:"22:00",v:"Boston"},
+{h:"Croatia",a:"Panama",hs:null,as:null,d:"wo 24 jun",t:"01:00",v:"Boston"},
+{h:"England",a:"Panama",hs:null,as:null,d:"za 27 jun",t:"23:00",v:"New York"},
+{h:"Croatia",a:"Ghana",hs:null,as:null,d:"za 27 jun",t:"23:00",v:"Philadelphia"}]}
+};
+
+const R32=[
+{id:73,h:"1A",a:"2B",hs:null,as:null,d:"zo 28 jun",t:"21:00",v:"Los Angeles"},
+{id:74,h:"1E",a:"3A/B/C/D/F",hs:null,as:null,d:"ma 29 jun",t:"22:30",v:"Boston"},
+{id:75,h:"1F",a:"2C",hs:null,as:null,d:"di 30 jun",t:"03:00",v:"Guadalajara"},
+{id:76,h:"1C",a:"2F",hs:null,as:null,d:"ma 29 jun",t:"19:00",v:"Houston"},
+{id:77,h:"1I",a:"3C/D/F/G/H",hs:null,as:null,d:"wo 1 jul",t:"23:00",v:"New York"},
+{id:78,h:"2E",a:"2I",hs:null,as:null,d:"wo 1 jul",t:"19:00",v:"Arlington"},
+{id:79,h:"1A*",a:"3C/E/F/H/I",hs:null,as:null,d:"do 2 jul",t:"03:00",v:"Mexico City"},
+{id:80,h:"1L",a:"3E/H/I/J/K",hs:null,as:null,d:"do 2 jul",t:"18:00",v:"Atlanta"},
+{id:81,h:"1D",a:"2A",hs:null,as:null,d:"vr 3 jul",t:"02:00",v:"Santa Clara"},
+{id:82,h:"2D",a:"2L",hs:null,as:null,d:"do 2 jul",t:"22:00",v:"Seattle"},
+{id:83,h:"1B",a:"2G",hs:null,as:null,d:"za 4 jul",t:"01:00",v:"Toronto"},
+{id:84,h:"1G",a:"2B*",hs:null,as:null,d:"vr 3 jul",t:"21:00",v:"Los Angeles"},
+{id:85,h:"1H",a:"2K",hs:null,as:null,d:"za 4 jul",t:"05:00",v:"Vancouver"},
+{id:86,h:"1K",a:"2H",hs:null,as:null,d:"za 4 jul",t:"00:00",v:"Miami"},
+{id:87,h:"1J",a:"3G/H/I/J/K/L",hs:null,as:null,d:"zo 5 jul",t:"03:30",v:"Kansas City"},
+{id:88,h:"2J",a:"3A/B/C/D/E/F",hs:null,as:null,d:"za 4 jul",t:"20:00",v:"Arlington"}
+];
+const QF=[
+{id:89,h:"W73",a:"W86",hs:null,as:null,d:"zo 5 jul",t:"23:00",v:"Foxborough"},
+{id:90,h:"W74",a:"W83",hs:null,as:null,d:"zo 5 jul",t:"19:00",v:"Houston"},
+{id:91,h:"W76",a:"W85",hs:null,as:null,d:"ma 6 jul",t:"22:00",v:"New York"},
+{id:92,h:"W75",a:"W84",hs:null,as:null,d:"ma 6 jul",t:"21:00",v:"Los Angeles"},
+{id:93,h:"W77",a:"W88",hs:null,as:null,d:"di 7 jul",t:"02:00",v:"Mexico City"},
+{id:94,h:"W78",a:"W87",hs:null,as:null,d:"di 7 jul",t:"21:00",v:"Arlington"},
+{id:95,h:"W79",a:"W82",hs:null,as:null,d:"wo 8 jul",t:"02:00",v:"Seattle"},
+{id:96,h:"W80",a:"W81",hs:null,as:null,d:"wo 8 jul",t:"22:00",v:"Atlanta"}
+];
+const SF=[
+{id:97,h:"W89",a:"W91",hs:null,as:null,d:"wo 15 jul",t:"21:00",v:"Arlington"},
+{id:98,h:"W90",a:"W92",hs:null,as:null,d:"do 16 jul",t:"21:00",v:"Atlanta"},
+{id:99,h:"W93",a:"W95",hs:null,as:null,d:"vr 17 jul",t:"21:00",v:"Foxborough"},
+{id:100,h:"W94",a:"W96",hs:null,as:null,d:"za 18 jul",t:"03:00",v:"Kansas City"}
+];
+const FIN=[
+{id:103,h:"V97",a:"V98",hs:null,as:null,d:"zo 19 jul",t:"23:00",v:"Miami",lb:"3e/4e Plaats"},
+{id:104,h:"V99",a:"V100",hs:null,as:null,d:"za 18 jul",t:"00:00",v:"Kansas City",lb:"3e/4e Plaats"},
+{id:101,h:"W99",a:"W100",hs:null,as:null,d:"ma 20 jul",t:"21:00",v:"MetLife Stadium, New Jersey",lb:"🏆 FINALE"}
+];
+
+// ---- HELPERS ----
+function F(t){return FL[t]||"🏳️"}
+function getG(t){for(const[g,d] of Object.entries(GR))if(d.t.includes(t))return g;return"?"}
+function posClass(pos){return pos==="gk"?"gk":pos==="def"?"def":pos==="mid"?"mid":"fwd"}
+function posEmoji(pos){return pos==="gk"?"🧤":pos==="def"?"🛡️":pos==="mid"?"⚙️":"⚽"}
+function posLabel(pos){return pos==="gk"?"Keeper":pos==="def"?"Verdediger":pos==="mid"?"Middenvelder":"Aanvaller"}
+
+// ---- TABS ----
+document.querySelectorAll('.tab').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+    document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+    btn.classList.add('active');
+    const v=btn.dataset.view;
+    document.getElementById('view-'+v).classList.add('active');
+    // Ververs dynamische views bij openen
+    if(v==='schedule')showSchedule(currentScheduleRound);
+    else if(v==='results')showResults();
+    else if(v==='bracket')initBracket();
+    // scroll naar boven
+    document.getElementById('view-'+v).scrollTop=0;
+  });
+});
+
+// ---- SEARCH ----
+function doSearch(q){
+  q=q.trim().toLowerCase();
+  const el=document.getElementById('sr');
+  if(q.length<2){el.innerHTML='<div class="empty">Typ een naam om te zoeken</div>';return;}
+  let res=[];
+  for(const[country,sq] of Object.entries(SQ)){
+    if(!sq.gk)continue;
+    if(country.toLowerCase().includes(q))res.push({type:'c',country});
+    for(const pos of ['gk','def','mid','fwd']){
+      (sq[pos]||[]).forEach(p=>{
+        if(p[0].toLowerCase().includes(q))res.push({type:'p',name:p[0],club:p[1],age:p[2],caps:p[3],goals:p[4],country,pos});
+      });
+    }
+  }
+  if(!res.length){el.innerHTML='<div class="empty">Niets gevonden voor "'+q+'"</div>';return;}
+  let h='';
+  const cs=res.filter(r=>r.type==='c'),ps=res.filter(r=>r.type==='p');
+  if(cs.length){
+    h+='<div class="sl">Landen ('+cs.length+')</div>';
+    cs.forEach(r=>{h+=`<div class="pr" onclick="showSquad('${r.country}')"><span style="font-size:22px">${F(r.country)}</span><div class="pi"><div class="pname">${r.country}</div><div class="psub">Bekijk volledige selectie →</div></div></div>`;});
+  }
+  if(ps.length){
+    h+='<div class="sl">Spelers ('+ps.length+')</div>';
+    ps.forEach(r=>{
+      const pc=posClass(r.pos);
+      h+=`<div class="pr" onclick="showPlayer(${JSON.stringify(r).replace(/"/g,'&quot;')})">
+        <div class="pav ${pc}">${posEmoji(r.pos)}</div>
+        <div class="pi">
+          <div class="pname">${r.name}</div>
+          <div class="psub">${F(r.country)} ${r.country} · ${r.club}</div>
+        </div>
+        <div style="text-align:right;font-size:11px;color:var(--muted);flex-shrink:0">
+          <div style="color:var(--gold);font-weight:700">${r.goals}⚽</div>
+          <div>${r.caps} caps</div>
+        </div>
+      </div>`;
+    });
+  }
+  el.innerHTML=h;
+}
+
+// ---- SQUADS ----
+function renderSqList(){
+  const teams=Object.keys(SQ).filter(k=>SQ[k].gk).sort();
+  let h='<div class="sl">48 landen — kies een team</div><div class="tg">';
+  teams.forEach(t=>{h+=`<div class="tb" onclick="showSquad('${t}')"><span class="fl">${F(t)}</span><span class="nm">${t}</span></div>`;});
+  h+='</div>';
+  document.getElementById('sqI').innerHTML=h;
+}
+
+function showSquad(country,from){
+  activateView('squads');
+  const sq=SQ[country];
+  if(!sq||!sq.gk){renderSqList();return;}
+  let h=`<div class="sh"><span class="sf2">${F(country)}</span><div><div class="sn">${country}</div><div style="font-size:11px;color:var(--muted)">Coach: ${sq.coach} · Groep ${getG(country)}</div><div style="font-size:10px;color:var(--muted)">${sq.ranking?'FIFA #'+sq.ranking:''} · Best: ${sq.wc_best||'?'}</div></div><button class="bb" onclick="${from&&from!=='squads'?`activateView('${from}')`:'renderSqList()'}">← Terug</button></div>`;
+  for(const pos of ['gk','def','mid','fwd']){
+    const pl=sq[pos]||[];
+    if(!pl.length)continue;
+    h+=`<div class="pl">${posEmoji(pos)} ${posLabel(pos)} (${pl.length})</div>`;
+    pl.forEach((p,i)=>{
+      const pc=posClass(pos);
+      h+=`<div class="pr" onclick="showPlayer(${JSON.stringify({name:p[0],club:p[1],age:p[2],caps:p[3],goals:p[4],country,pos}).replace(/"/g,'&quot;')})">
+        <div class="pav ${pc}">${posEmoji(pos)}</div>
+        <div class="pi"><div class="pname">${p[0]}</div><div class="psub">${p[1]} · ${p[2]}jr</div></div>
+        <div style="text-align:right;flex-shrink:0;font-size:11px">
+          <span class="pbadge bg">${p[4]}⚽</span>
+          <div style="color:var(--muted);margin-top:2px">${p[3]} caps</div>
+        </div>
+      </div>`;
+    });
+  }
+  document.getElementById('sqI').innerHTML=h;
+}
+
+function showPlayer(r){
+  if(typeof r==='string')r=JSON.parse(r);
+  activateView('squads');
+  const pc=posClass(r.pos);
+  const sq=SQ[r.country];
+  const h=`<button class="bb" style="margin-bottom:10px" onclick="showSquad('${r.country}')">← ${r.country}</button>
+  <div class="pdetail">
+    <div style="text-align:center">
+      <div style="font-size:28px;margin-bottom:4px">${F(r.country)}</div>
+      <div class="pdav ${pc}" style="margin:0 auto 8px">${posEmoji(r.pos)}</div>
+      <div class="pdname">${r.name}</div>
+      <div class="pdpos">${posLabel(r.pos)} · ${r.country}</div>
+    </div>
+    <div class="pdstats">
+      <div class="pdstat"><div class="pdsl">Leeftijd</div><div class="pdsv">${r.age}</div></div>
+      <div class="pdstat"><div class="pdsl">Caps</div><div class="pdsv">${r.caps}</div></div>
+      <div class="pdstat"><div class="pdsl">Goals</div><div class="pdsv">${r.goals}</div></div>
+      <div class="pdstat"><div class="pdsl">Groep</div><div class="pdsv">${getG(r.country)}</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div style="font-size:11px;color:var(--muted);font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">Spelerspaspoort</div>
+    <div class="ir"><span class="il">Naam</span><span class="iv">${r.name}</span></div>
+    <div class="ir"><span class="il">Nationaliteit</span><span class="iv">${F(r.country)} ${r.country}</span></div>
+    <div class="ir"><span class="il">Positie</span><span class="iv">${posLabel(r.pos)}</span></div>
+    <div class="ir"><span class="il">Huidige club</span><span class="iv">${r.club}</span></div>
+    <div class="ir"><span class="il">Leeftijd</span><span class="iv">${r.age} jaar</span></div>
+    <div class="ir"><span class="il">Interlands</span><span class="iv">${r.caps} caps</span></div>
+    <div class="ir"><span class="il">Int. goals</span><span class="iv">${r.goals} goals</span></div>
+    <div class="ir"><span class="il">Bondscoach</span><span class="iv">${sq?sq.coach:'?'}</span></div>
+    <div class="ir"><span class="il">WK Groep</span><span class="iv">Groep ${getG(r.country)}</span></div>
+    <div class="ir"><span class="il">WK beste resultaat</span><span class="iv">${sq&&sq.wc_best?sq.wc_best:'?'}</span></div>
+  </div>
+  <div class="card" style="padding:10px 12px">
+    <div style="font-size:11px;color:var(--muted);font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">Links</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(r.name.replace(/ /g,'_'))}" target="_blank" style="display:flex;align-items:center;gap:6px;padding:8px 12px;background:var(--s2);border:1px solid var(--border);border-radius:8px;text-decoration:none;color:var(--text);font-size:13px;flex:1;min-width:120px">
+        <span style="font-size:18px">📖</span><span>Wikipedia</span>
+      </a>
+      <a href="https://www.transfermarkt.nl/schnellsuche/ergebnis/schnellsuche?query=${encodeURIComponent(r.name)}" target="_blank" style="display:flex;align-items:center;gap:6px;padding:8px 12px;background:var(--s2);border:1px solid var(--border);border-radius:8px;text-decoration:none;color:var(--text);font-size:13px;flex:1;min-width:120px">
+        <span style="font-size:18px">💶</span><span>Transfermarkt</span>
+      </a>
+    </div>
+  </div>`;
+  document.getElementById('sqI').innerHTML=h;
+}
+
+function activateView(name){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===name));
+  document.querySelectorAll('.view').forEach(v=>v.classList.toggle('active',v.id==='view-'+name));
+}
+
+// ---- RESULTS STORAGE (localStorage) ----
+const STORE_KEY='wk2026_results_v1';
+let RESULTS={}; // {matchKey: {hs, as}}
+function loadResults(){
+  try{const r=localStorage.getItem(STORE_KEY);if(r)RESULTS=JSON.parse(r);}catch(e){RESULTS={};}
+}
+function saveResults(){
+  try{localStorage.setItem(STORE_KEY,JSON.stringify(RESULTS));}catch(e){}
+}
+// Match key: groep "G:A:0" (groep A wedstrijd index 0), KO "K:73"
+function gKey(gId,idx){return 'G:'+gId+':'+idx;}
+function kKey(id){return 'K:'+id;}
+
+// Pas opgeslagen uitslagen toe op de datastructuren
+function applyResults(){
+  // Groepswedstrijden
+  for(const[gId,g] of Object.entries(GR)){
+    g.m.forEach((m,idx)=>{
+      const k=gKey(gId,idx);
+      if(RESULTS[k]){m.hs=RESULTS[k].hs;m.as=RESULTS[k].as;}
+      else{m.hs=null;m.as=null;}
+    });
+  }
+  // KO wedstrijden
+  [...R32,...QF,...SF,...FIN].forEach(m=>{
+    const k=kKey(m.id);
+    if(RESULTS[k]){m.hs=RESULTS[k].hs;m.as=RESULTS[k].as;}
+    else{m.hs=null;m.as=null;}
+  });
+  // Vul KO teams in op basis van groepsstanden + KO winnaars
+  resolveBracket();
+}
+
+// ---- STANDINGS ----
+function calcStd(gId){
+  const g=GR[gId],pts={},st={};
+  g.t.forEach(t=>{pts[t]=0;st[t]={p:0,w:0,d:0,l:0,gf:0,ga:0};});
+  g.m.forEach(m=>{
+    if(m.hs===null)return;
+    const[h,a,hs,as]=[m.h,m.a,m.hs,m.as];
+    st[h].p++;st[a].p++;st[h].gf+=hs;st[h].ga+=as;st[a].gf+=as;st[a].ga+=hs;
+    if(hs>as){st[h].w++;pts[h]+=3;st[a].l++;}else if(hs<as){st[a].w++;pts[a]+=3;st[h].l++;}else{st[h].d++;st[a].d++;pts[h]++;pts[a]++;}
+  });
+  return g.t.map(t=>({t,...st[t],pts:pts[t],gd:st[t].gf-st[t].ga})).sort((a,b)=>b.pts-a.pts||b.gd-a.gd||b.gf-a.gf);
+}
+// Is groep volledig gespeeld?
+function groupDone(gId){return GR[gId].m.every(m=>m.hs!==null);}
+// Geef team op positie (1 of 2) in groep, mits beslist
+function groupSlot(gId,pos){
+  if(!groupDone(gId))return null;
+  const std=calcStd(gId);
+  return std[pos-1]?std[pos-1].t:null;
+}
+
+// ---- BRACKET RESOLUTION ----
+// Placeholder -> echt team. Bewaart originele aanduiding.
+function resolvePlaceholder(ph){
+  // "1A" of "2B" => groepsslot
+  let m=ph.match(/^([12])([A-L])\*?$/);
+  if(m){const pos=+m[1],gId=m[2];const t=groupSlot(gId,pos);return t;}
+  // "W73" => winnaar match 73
+  m=ph.match(/^W(\d+)$/);
+  if(m){return koWinner(+m[1]);}
+  // "V97" => verliezer match 97 (voor 3e plaats)
+  m=ph.match(/^V(\d+)$/);
+  if(m){return koLoser(+m[1]);}
+  // "3A/B/C..." => beste derde, niet automatisch
+  return null;
+}
+function findKO(id){return [...R32,...QF,...SF,...FIN].find(m=>m.id===id);}
+function koWinner(id){
+  const m=findKO(id);if(!m||m.hs===null)return null;
+  const ht=m._hTeam||resolvePlaceholder(m.h);const at=m._aTeam||resolvePlaceholder(m.a);
+  if(m.hs>m.as)return ht;if(m.as>m.hs)return at;return null; // gelijk = onbeslist (penalties onbekend)
+}
+function koLoser(id){
+  const m=findKO(id);if(!m||m.hs===null)return null;
+  const ht=m._hTeam||resolvePlaceholder(m.h);const at=m._aTeam||resolvePlaceholder(m.a);
+  if(m.hs>m.as)return at;if(m.as>m.hs)return ht;return null;
+}
+// Vul _hTeam/_aTeam in voor alle KO matches (meerdere passes voor doorstroming)
+function resolveBracket(){
+  for(let pass=0;pass<5;pass++){
+    [...R32,...QF,...SF,...FIN].forEach(m=>{
+      m._hTeam=resolvePlaceholder(m.h);
+      m._aTeam=resolvePlaceholder(m.a);
+    });
+  }
+}
+
+// ---- GROUPS VIEW ----
+function initGroups(){
+  document.getElementById('gf').innerHTML='ABCDEFGHIJKL'.split('').map((g,i)=>`<button class="fp${i===0?' active':''}" onclick="showGroup('${g}',this)">Groep ${g}</button>`).join('');
+  showGroup('A');
+}
+function showGroup(gId,btn){
+  if(btn){document.querySelectorAll('#gf .fp').forEach(b=>b.classList.remove('active'));btn.classList.add('active');}
+  const g=GR[gId],std=calcStd(gId);
+  let h=`<div class="sl">Stand Groep ${gId}${groupDone(gId)?' · beslist':''}</div><div class="card" style="padding:0;overflow:hidden;margin-bottom:10px"><table class="st"><thead><tr><th>#</th><th>Team</th><th>Sp</th><th>W</th><th>G</th><th>V</th><th>DS</th><th>Pnt</th></tr></thead><tbody>`;
+  std.forEach((r,i)=>{const pc=i===0?'q1':i===1?'q2':i===2?'q3':'';h+=`<tr><td><span class="sp ${pc}">${i+1}</span></td><td><div class="tc" onclick="showSquad('${r.t}','groups')" style="cursor:pointer"><span class="tf2">${F(r.t)}</span><span class="tn">${r.t}</span></div></td><td>${r.p}</td><td>${r.w}</td><td>${r.d}</td><td>${r.l}</td><td style="color:${r.gd>0?'var(--green)':r.gd<0?'var(--red)':'var(--muted)'}">${r.gd>0?'+':''}${r.gd}</td><td style="font-weight:700;color:var(--gold)">${r.pts}</td></tr>`;});
+  h+=`</tbody></table></div><div class="sl">Wedstrijden Groep ${gId}</div>`;
+  g.m.forEach((m,idx)=>{h+=rMC(m,false,gKey(gId,idx));});
+  h+=`<div style="margin-top:6px;padding:8px;background:var(--s1);border:1px solid var(--border);border-radius:8px;font-size:10px;color:var(--muted)"><span style="color:var(--gold)">●</span> 1e+2e = direct door · <span style="color:var(--green)">●</span> 3e = mogelijke wildcard (8 beste derdes)</div>`;
+  document.getElementById('gI').innerHTML=h;
+}
+
+// ---- MATCH CARD ----
+// m=wedstrijd, ko=knockout?, key=opslagsleutel (voor invulbaar maken)
+function rMC(m,ko=false,key=null){
+  const pl=m.hs!==null;
+  // Bepaal weergavenamen
+  let hName=m.h,aName=m.a,hReal=m.h,aReal=m.a,hPh='',aPh='';
+  if(ko){
+    hReal=m._hTeam||null;aReal=m._aTeam||null;
+    hPh=m.h;aPh=m.a; // originele aanduiding (1A, W73...)
+    hName=hReal||m.h;aName=aReal||m.a;
+  }
+  const iph=ko&&!hReal;const ipa=ko&&!aReal;
+  const timeStr=m.t?`<span style="font-family:'Oswald',sans-serif;font-weight:700;color:var(--gold);font-size:13px">${m.t}</span> <span style="color:var(--muted);font-size:10px">NL</span>`:'';
+  const hCanClick=!iph&&SQ[hName]&&SQ[hName].gk;
+  const aCanClick=!ipa&&SQ[aName]&&SQ[aName].gk;
+  const hClick=hCanClick?`onclick="showSquad('${hName}','schedule')" style="cursor:pointer"`:'';
+  const aClick=aCanClick?`onclick="showSquad('${aName}','schedule')" style="cursor:pointer"`:'';
+  const hUnder=hCanClick?'border-bottom:1px dashed rgba(240,192,64,.4)':'';
+  const aUnder=aCanClick?'border-bottom:1px dashed rgba(240,192,64,.4)':'';
+  // Plek-badge voor KO
+  const hBadge=ko?`<span style="font-size:9px;color:var(--muted);display:block">${hPh}</span>`:'';
+  const aBadge=ko?`<span style="font-size:9px;color:var(--muted);display:block">${aPh}</span>`:'';
+  // Score of invulknop
+  let scoreBox;
+  if(pl){
+    scoreBox=`<div class="msc" ${key?`onclick="openEdit('${key}','${(hName||'').replace(/'/g,"\\\\'")}','${(aName||'').replace(/'/g,"\\\\'")}')" style="cursor:pointer"`:''}><div class="msct">${m.hs} – ${m.as}</div></div>`;
+  } else if(key){
+    scoreBox=`<div class="msc" onclick="openEdit('${key}','${(hName||'').replace(/'/g,"\\\\'")}','${(aName||'').replace(/'/g,"\\\\'")}')" style="cursor:pointer;border-color:var(--gold)"><div style="font-size:10px;color:var(--gold);font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase">Invullen</div>${m.t?`<div style="font-size:10px;margin-top:2px">${timeStr}</div>`:''}</div>`;
+  } else {
+    scoreBox=`<div class="msc"><div class="msct">– –</div>${m.t?`<div style="font-size:11px;margin-top:2px">${timeStr}</div>`:''}</div>`;
+  }
+  return `<div class="mc"><div class="mm"><span class="ms ${pl?'mf':'mpl'}">${pl?'Gespeeld':'Gepland'}</span>${m.lb?`<span class="mlb">${m.lb}</span>`:''}<span class="md2">${m.d||''}</span></div><div class="mtt"><div class="mti" ${hClick}><span class="mfl">${iph?'🏳️':F(hName)}</span><span class="mtn" style="${hUnder}">${hName}</span>${hBadge}</div>${scoreBox}<div class="mti" ${aClick}><span class="mfl">${ipa?'🏳️':F(aName)}</span><span class="mtn" style="${aUnder}">${aName}</span>${aBadge}</div></div>${m.v?`<div class="mvc">📍 ${m.v}</div>`:''}</div>`;
+}
+
+// ---- SCORE INVOER MODAL ----
+function openEdit(key,hName,aName){
+  const existing=RESULTS[key]||{hs:'',as:''};
+  const ov=document.createElement('div');
+  ov.id='editOverlay';
+  ov.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px';
+  ov.innerHTML=`<div style="background:var(--s1);border:1px solid var(--border);border-radius:16px;padding:20px;width:100%;max-width:320px">
+    <div style="font-family:'Oswald',sans-serif;font-weight:700;font-size:16px;text-align:center;margin-bottom:16px;text-transform:uppercase">Uitslag invullen</div>
+    <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:18px">
+      <div style="text-align:center;flex:1">
+        <div style="font-size:28px">${F(hName)}</div>
+        <div style="font-family:'Oswald',sans-serif;font-weight:600;font-size:13px;margin-top:2px">${hName}</div>
+      </div>
+      <input id="edH" type="number" inputmode="numeric" min="0" max="99" value="${existing.hs}" style="width:48px;height:48px;text-align:center;font-size:22px;font-family:'Oswald',sans-serif;font-weight:700;background:var(--s2);border:1px solid var(--border);border-radius:10px;color:var(--gold)">
+      <span style="font-size:18px;color:var(--muted)">–</span>
+      <input id="edA" type="number" inputmode="numeric" min="0" max="99" value="${existing.as}" style="width:48px;height:48px;text-align:center;font-size:22px;font-family:'Oswald',sans-serif;font-weight:700;background:var(--s2);border:1px solid var(--border);border-radius:10px;color:var(--gold)">
+      <div style="text-align:center;flex:1">
+        <div style="font-size:28px">${F(aName)}</div>
+        <div style="font-family:'Oswald',sans-serif;font-weight:600;font-size:13px;margin-top:2px">${aName}</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:8px">
+      <button onclick="saveEdit('${key}')" style="flex:2;padding:12px;background:var(--gold);color:#000;border:none;border-radius:10px;font-family:'Oswald',sans-serif;font-weight:700;font-size:14px;cursor:pointer;text-transform:uppercase">Opslaan</button>
+      ${RESULTS[key]?`<button onclick="clearEdit('${key}')" style="flex:1;padding:12px;background:var(--s2);color:var(--red);border:1px solid var(--border);border-radius:10px;font-size:13px;cursor:pointer">Wissen</button>`:''}
+      <button onclick="closeEdit()" style="flex:1;padding:12px;background:var(--s2);color:var(--muted);border:1px solid var(--border);border-radius:10px;font-size:13px;cursor:pointer">Sluiten</button>
+    </div>
+  </div>`;
+  ov.addEventListener('click',e=>{if(e.target===ov)closeEdit();});
+  document.body.appendChild(ov);
+  setTimeout(()=>document.getElementById('edH').focus(),100);
+}
+function closeEdit(){const o=document.getElementById('editOverlay');if(o)o.remove();}
+function saveEdit(key){
+  const hs=parseInt(document.getElementById('edH').value);
+  const as=parseInt(document.getElementById('edA').value);
+  if(isNaN(hs)||isNaN(as)||hs<0||as<0){alert('Vul beide scores in (0 of hoger).');return;}
+  RESULTS[key]={hs,as};
+  saveResults();applyResults();closeEdit();refreshAll();
+}
+function clearEdit(key){
+  delete RESULTS[key];saveResults();applyResults();closeEdit();refreshAll();
+}
+function refreshAll(){
+  showSchedule(currentScheduleRound);
+  showResults();
+  // Herrender de actieve groep (onthoud welke)
+  const gActive=document.querySelector('#gf .fp.active');
+  let gId='A';
+  if(gActive){const t=gActive.textContent.replace(/[^A-L]/g,'');if(t)gId=t;}
+  showGroup(gId);
+  // Markeer actieve groepknop opnieuw
+  document.querySelectorAll('#gf .fp').forEach(b=>{b.classList.toggle('active',b.textContent.replace(/[^A-L]/g,'')===gId);});
+  initBracket();
+}
+
+// ---- SCHEDULE (chronologisch, alleen nog te spelen) ----
+let currentScheduleRound='alles';
+// Bouw chronologisch gesorteerde lijst van alle wedstrijden
+function allMatchesSorted(){
+  const MA={jun:6,jul:7};
+  let arr=[];
+  for(const[gId,g] of Object.entries(GR)){
+    g.m.forEach((m,idx)=>arr.push({...m,_key:gKey(gId,idx),_ko:false,_group:'Groep '+gId}));
+  }
+  R32.forEach(m=>arr.push({...m,_key:kKey(m.id),_ko:true,_group:'Ronde van 32'}));
+  QF.forEach(m=>arr.push({...m,_key:kKey(m.id),_ko:true,_group:'Kwartfinale'}));
+  SF.forEach(m=>arr.push({...m,_key:kKey(m.id),_ko:true,_group:'Halve finale'}));
+  FIN.forEach(m=>arr.push({...m,_key:kKey(m.id),_ko:true,_group:m.lb||'Finale'}));
+  // Sorteer op datum+tijd
+  function dateVal(m){
+    const dc=(m.d||'').replace(/^[a-z]+ /,''); // "14 jun"
+    const parts=dc.split(' ');const day=parseInt(parts[0])||0;const mon=MA[parts[1]]||6;
+    const t=(m.t||'00:00').split(':');const hh=parseInt(t[0])||0;const mm=parseInt(t[1])||0;
+    return mon*100000+day*1000+hh*10+mm/10;
+  }
+  arr.sort((a,b)=>dateVal(a)-dateVal(b));
+  return arr;
+}
+
+function initSchedule(){
+  showSchedule('alles');
+}
+
+function showSchedule(round){
+  currentScheduleRound=round||'alles';
+  const all=allMatchesSorted();
+  // Alleen nog te spelen (hs===null)
+  const todo=all.filter(m=>m.hs===null);
+  let h='';
+  h+=`<div style="padding:10px 12px;background:rgba(240,192,64,.06);border:1px solid rgba(240,192,64,.2);border-radius:10px;margin-bottom:12px;font-size:12px;color:var(--muted);line-height:1.5">
+    📝 Tik op een wedstrijd om de <strong style="color:var(--gold)">uitslag in te vullen</strong>. Gespeelde wedstrijden verschuiven naar <strong style="color:var(--text)">Uitslagen</strong> en standen + knock-outs werken automatisch bij.
+  </div>`;
+  if(todo.length===0){
+    h+='<div class="empty">Alle wedstrijden zijn gespeeld! 🏆</div>';
+    document.getElementById('scI').innerHTML=h;return;
+  }
+  // Groepeer per dag
+  const byDay={};
+  todo.forEach(m=>{const dk=m.d||'Nog te bepalen';if(!byDay[dk])byDay[dk]=[];byDay[dk].push(m);});
+  for(const[day,ms] of Object.entries(byDay)){
+    h+=`<div class="sl">${day}</div>`;
+    ms.forEach(m=>{h+=rMC(m,m._ko,m._key);});
+  }
+  document.getElementById('scI').innerHTML=h;
+}
+
+// ---- RESULTS VIEW (gespeeld, nieuwste eerst) ----
+function showResults(){
+  const all=allMatchesSorted();
+  const done=all.filter(m=>m.hs!==null).reverse();
+  let h='';
+  if(done.length===0){
+    h='<div class="empty">Nog geen uitslagen.<br><span style="font-size:12px">Vul uitslagen in via het Schema-tabblad.</span></div>';
+    document.getElementById('resI').innerHTML=h;return;
+  }
+  h+=`<div class="sl">${done.length} gespeelde wedstrijd${done.length>1?'en':''}</div>`;
+  // Groepeer per dag
+  const byDay={};
+  done.forEach(m=>{const dk=m.d||'?';if(!byDay[dk])byDay[dk]=[];byDay[dk].push(m);});
+  for(const[day,ms] of Object.entries(byDay)){
+    h+=`<div style="font-size:11px;font-family:'Oswald',sans-serif;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin:10px 0 5px">${day}</div>`;
+    ms.forEach(m=>{h+=rMC(m,m._ko,m._key);});
+  }
+  document.getElementById('resI').innerHTML=h;
+}
+
+// ---- BRACKET ----
+function initBracket(){
+  let h='';
+  h+=`<div style="padding:8px 12px;background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.2);border-radius:10px;margin-bottom:12px;font-size:11px;color:var(--muted);line-height:1.5">
+    🔮 De bracket vult zich automatisch op basis van jouw uitslagen. Plek-aanduiding (1A, W73) blijft zichtbaar naast het ingevulde land.
+  </div>`;
+  [{lb:'Ronde van 32',ms:R32},{lb:'Kwartfinales',ms:QF},{lb:'Halve Finales',ms:SF},{lb:'Finale & 3e/4e Plaats',ms:FIN}].forEach(({lb,ms})=>{
+    h+=`<div class="br-round"><div class="br-title">${lb}</div>`;
+    ms.forEach(m=>{
+      const ht=m._hTeam||m.h, at=m._aTeam||m.a;
+      const hReal=!!m._hTeam, aReal=!!m._aTeam;
+      const pl=m.hs!==null,hw=pl&&m.hs>m.as,aw=pl&&m.as>m.hs;
+      h+=`<div class="bm"><div class="bmn">${m.lb||'Match '+m.id} · ${m.d||''} · ${m.v||''}</div><div class="bts">
+        <div class="bt${hw?' win':''}"><span class="btf">${hReal?F(ht):'🏳️'}</span><span class="btn2">${ht}${hReal&&ht!==m.h?` <span style="font-size:9px;color:var(--muted)">(${m.h})</span>`:''}</span>${pl?`<span class="bts2">${m.hs}</span>`:''}</div>
+        <div class="bt${aw?' win':''}"><span class="btf">${aReal?F(at):'🏳️'}</span><span class="btn2">${at}${aReal&&at!==m.a?` <span style="font-size:9px;color:var(--muted)">(${m.a})</span>`:''}</span>${pl?`<span class="bts2">${m.as}</span>`:''}</div>
+      </div></div>`;
+    });
+    h+='</div>';
+  });
+  document.getElementById('brI').innerHTML=h;
+}
+
+// ---- INIT ----
+loadResults();
+applyResults();
+renderSqList();
+initGroups();
+initSchedule();
+showResults();
+initBracket();
+
+</script>
+</body>
+</html>
